@@ -22,7 +22,7 @@ const Testimonials = () => {
   return (
     <div className='w-full min-h-screen bg-background mt-[100px]'>
       {/* Section 1 */}
-      <div className="w-full min-h-[130vh] bg-[url('/testimonial1.png')] bg-cover bg-center md:min-h-[85vh] flex flex-col md:flex-row gap-10 md:gap-8 px-4 md:px-8 py-8 justify-center md:justify-between items-center pt-[80px]">
+      <div className="w-full min-h-[130vh] bg-[url('/testimonial4.webp')] bg-cover bg-center md:min-h-[85vh] flex flex-col md:flex-row gap-10 md:gap-8 px-4 md:px-8 py-8 justify-center md:justify-between items-center pt-[80px]">
         {/* Left */}
         <div className="flex flex-col items-center justify-center md:items-start gap-2 w-full md:w-[50%]">
           <h4 className='flex justify-center items-center gap-4 text-primary text-lg font-light text-center md:text-start'>TESTIMONIALS <span className='w-10 h-[1px] bg-primary'></span></h4>
@@ -39,68 +39,68 @@ const Testimonials = () => {
         <div className="slide-track flex w-[cal(250px * 9)] mt-10">
 
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test10.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test10.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test9.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test9.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test8.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test8.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test7.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test7.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test6.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test6.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test10.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test10.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test9.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test9.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test8.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test8.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test7.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test7.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test6.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test6.webp" alt="" />
           </div>
 
         </div>
         <div reverse="true" className="slide-track flex w-[cal(250px * 9)]">
 
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test5.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test5.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test4.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test4.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test3.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test3.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test2.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test2.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test1.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test1.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test5.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test5.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test4.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test4.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test3.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test3.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test2.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test2.webp" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test1.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/test1.webp" alt="" />
           </div>
 
         </div>
