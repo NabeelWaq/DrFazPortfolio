@@ -8,16 +8,16 @@ const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const slides = [
     {
-      url: '/1.png'
+      url: '/1.webp'
     },
     {
-      url: '/2.png'
+      url: '/2.webp'
     },
     {
-      url: '/3.png'
+      url: '/3.webp'
     },
     {
-      url: '/4.png'
+      url: '/4.webp'
     },
   ]
 
@@ -275,7 +275,7 @@ containerRef.current.classList.remove("show-controls")
         </div>
       </div>
       {/* Section 2 */}
-      <div style={{ backgroundImage: "url('/homesec2.png')" }} className="relative w-full min-h-screen bg-cover bg-no-repeat bg-left brightness-75 flex justify-end items-center py-10">
+      <div style={{ backgroundImage: "url('/homesec2.webp')" }} className="relative w-full min-h-screen bg-cover bg-no-repeat bg-left brightness-75 flex justify-end items-center py-10">
         <div className="w-full h-full absolute bg-blue-400 bg-opacity-45 z-10"></div>
         <div className="w-[100%] sm:w-[90%] md:w-[60%] min-h-[90%] z-20 bg-background bg-opacity-45 rounded-xl p-5 flex flex-col gap-4 mx-5 sm:mr-32">
           <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold '>TURN YOUR SALES INTO THE KEY TO<br /><span className='text-tritary'> TRUE FINANCIAL FREEDOM.</span></h1>
@@ -367,8 +367,8 @@ containerRef.current.classList.remove("show-controls")
         </div>
       </div>
       {/* About */}
-      <div className="w-full min-h-screen sm:h-[115vh] lg:h-[100vh] xl:h-[100vh] overflow-hidden bg-fixed bg-[url('/4.png')] relative bg-no-repeat bg-cover">
-        <div className="bg-primary relative py-8 w-full min-h-full bg-opacity-70 flex flex-col lg:flex-row lg:py-0 px-2 sm:px-8 md:px-14  items-center justify-center pt-4 sm:justify-end gap-6 sm:gap-0">
+      <div className="w-full min-h-screen sm:h-[120vh] md:h-[180vh] xl:h-[140vh] overflow-hidden bg-fixed bg-[url('/4.webp')] relative bg-no-repeat bg-cover">
+        <div className="bg-primary relative py-8 md:py-14 w-full min-h-full bg-opacity-70 flex flex-col lg:flex-row lg:py-0 px-2 sm:px-8 md:px-14  items-center justify-center pt-4 sm:justify-end gap-6 sm:gap-0">
           <div className="flex flex-col gap-4 items-center sm:items-start px-5 sm:px-0 justify-center w-[100%] lg:w-[50%] min-h-full">
             <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-tritary font-bold'><span className='text-background'>Dr.</span> Faz Mehmood</h2>
             <div className="flex flex-col gap-3 items-start justify-center">
@@ -380,7 +380,7 @@ containerRef.current.classList.remove("show-controls")
             <button onClick={() => navigate('/about') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>About Faz</button>
           </div>
           <div className="w-[100%] lg:w-[50%] relative h-[500px] md:h-[550px] hidden sm:flex justify-center items-center lg:h-[900px] xl:h-[900px]">
-            <img src="/about2.png" className='w-full h-full object-cover' alt="" />
+            <img src="/about2.webp" className='w-full h-full object-cover' alt="" />
           </div>
         </div>
       </div>
@@ -389,28 +389,28 @@ containerRef.current.classList.remove("show-controls")
       <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Awards</h2>
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center w-[80%] text-center md:w-[60%] md:gap-10 lg:gap-0 lg:w-[50%] mx-auto min-h-[400px]">
              <div className="h-[140px] md:h-[150px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/award1.avif" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/award1.webp" alt="" />
              </div>
              <div className="h-[140px] md:h-[150px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw1.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw1.webp" alt="" />
              </div>
              <div className="h-[180px] md:h-[200px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw2.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw2.webp" alt="" />
              </div>
              <div className="h-[180px] md:h-[240px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw3.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw3.webp" alt="" />
              </div>
              <div className="h-[200px] md:h-[300px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw4.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw4.webp" alt="" />
              </div>
              <div className="h-[180px] md:h-[240px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw5.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw5.webp" alt="" />
              </div>
              <div className="h-[220px] md:h-[240px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw6.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw6.webp" alt="" />
              </div>
              <div className="h-[240px] md:h-[280px] w-full flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw7.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw7.webp" alt="" />
              </div>
         </div>
       </div>
@@ -434,22 +434,22 @@ containerRef.current.classList.remove("show-controls")
       <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Companies</h2>
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center  w-[80%] mx-auto min-h-[200px]">
              <div className="h-[140px] md:h-[200px] w-full  flex items-center justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp1.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp1.webp" alt="" />
              </div>
              <div className="h-[140px] md:h-[200px] w-full  flex items-center justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp2.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp2.webp" alt="" />
              </div>
              <div className="h-[140px] md:h-[200px] w-full  flex items-center justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp3.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp3.webp" alt="" />
              </div>
              <div className="h-[140px] md:h-[200px] w-full flex items-center justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp4.png" alt="" />
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp4.webp" alt="" />
              </div>
         </div>
       </div>
 
       {/* Testimonial */}
-      <div className="w-full h-screen bg-fixed bg-[url('/aboutpage6.png')] bg-cover relative">
+      <div className="w-full h-screen bg-fixed bg-[url('/aboutpage6.webp')] bg-cover relative">
         <div className="z-10 absolute w-full h-full bg-background bg-opacity-30"></div>
         <div className="relative z-[18] flex w-full h-full flex-col items-center justify-center gap-8 px-6 md:px-2 py-5 ">
           <h1 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>SEE HOW OTHERS MADE THEIR DREAMS A REALITY</h1>
@@ -464,7 +464,7 @@ containerRef.current.classList.remove("show-controls")
         </div>
         <div className="flex flex-col items-center justify-center gap-20 md:gap-10 w-full min-h-full px-6 md-px-0">
           <div className="flex w-full md:w-[80%] justify-between flex-col md:flex-row items-center gap-6 min-h-[300px]">
-            <img src="/testimonial1.jpg" className='w-48 h-48 rounded-full object-cover' alt="" />
+            <img src="/testimonial1.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
             <div className="flex flex-col justify-center items-center md:items-start gap-2">
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>D.William Steward</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>I meet Dr. Faz at Picket Post Toastmasters, where his inspiring stories and public speaking skills really captivated my interest and desire to grow by developing my own communication skills. Since that time, I have participated in several of his mastermind groups that have truly helped me to grow. He is a fantastic coach and leader that cares about the growth of those he mentors and has an in-depth knowledge of what it takes to communicate as well as lead. He is truly one to get around, if you every have the opportunity I highly recommend his class/services.</p>
@@ -476,10 +476,10 @@ containerRef.current.classList.remove("show-controls")
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>Maheem Shakeel</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>I am honored to recommend Dr. Faz Mahmood, an incredible mentor, coach, and inspirational speaker who has profoundly impacted my life. I was once an introverted and shy individual, hesitant about public speaking and lacking confidence. Under Dr. faz guidance, I transformed into a confident speaker, capable of presenting effectively to an audience. His unwavering encouragement and insightful mentorship have inspired me in countless ways. One of his powerful sayings, “You do not get what you want; you only get what you are,” has become my guiding principle . I am truly grateful for his wisdom, motivation, and the lasting influence he has had on my journey. I wholeheartedly recommend Dr. Faz Mahmood to anyone seeking an inspiring and transformative mentor.</p>
             </div>
-            <img src="/testimonial3.jpg" className='w-48 h-48 rounded-full object-cover' alt="" />
+            <img src="/testimonial3.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
           </div>
           <div className="flex w-full md:w-[80%] justify-between flex-col md:flex-row items-center gap-6 min-h-[300px]">
-            <img src="/testimonial2.jpg" className='w-48 h-48 rounded-full object-cover' alt="" />
+            <img src="/testimonial2.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
             <div className="flex flex-col justify-center items-center md:items-start gap-2">
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>Joe JaworskiJoe Jaworski</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>Dr. Faz is foundational to my growth as a recent college graduate. I am fortunate to have him as a mentor who is genuinely interested in helping me grow as a leader, employee, and person. His presentations contain educational stories drafted from over a decade of rare leadership experience, setting sales records, and ENT surgical practice. His stories and guidance provide me with an original body of knowledge that cannot be found elsewhere. I highly recommend Dr. Faz for your company.</p>
