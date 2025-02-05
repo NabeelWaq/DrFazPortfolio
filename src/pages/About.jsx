@@ -61,17 +61,17 @@ const About = () => {
       <h2 className='text-center md:text-start text-4xl sm:text-4xl md:text-5xl text-white font-bold tracking-tight [text-shadow:_0_2px_8px_#000000]'>
           My <span className='text-tritary '>Mentors</span>
           </h2>
-          <div className="w-full min-h-full flex flex-col md:flex-row gap-16 items-center justify-normal md:justify-center">
+          <div className="w-full min-h-full flex flex-col md:flex-row gap-16 items-center justify-center md:justify-center">
             <div className="min-h-[350px] w-full md:w-[40%] flex flex-col items-center md:items-start justify-center gap-4">
               <img src="/johnmax.jpg" alt="img" className='w-full h-[400px] object-cover rounded-lg' />
               <h4 className='text-xl md:text-2xl text-center md:text-start text-secondary font-extrabold'>John C Maxwell</h4>
               <p className='text-sm md:text-lg text-center md:text-start'>John C. Maxwell is a world-renowned leadership expert, speaker, and author who has influenced millions of people worldwide through his books, seminars, and coaching. With over 40 years of experience, he is known for his practical, principles-based approach to leadership that empowers individuals to become effective leaders in all aspects of life. Maxwell's teachings focus on the core values of integrity, vision, and personal growth, emphasizing that leadership is about serving others and developing their potential. As a mentor and coach, Maxwell has worked with top executives, athletes, and organizations, helping them create lasting impact through transformational leadership. His work continues to inspire leaders across the globe to lead with purpose and authenticity.</p>
             </div>
-            <div className="min-h-[350px] w-full md:w-[40%] flex flex-col items-center md:items-start justify-center gap-4">
+            {/* <div className="min-h-[350px] w-full md:w-[40%] flex flex-col items-center md:items-start justify-center gap-4">
               <img src="/testimonial1.jpg" alt="img" className='w-full h-[400px] object-cover rounded-lg' />
               <h4 className='text-xl md:text-2xl text-center md:text-start text-secondary font-extrabold'>John C Maxwell</h4>
               <p className='text-sm md:text-lg text-center md:text-start'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, inventore. Neque voluptatem veniam eum rerum hic, nobis voluptates doloribus. Eligendi corrupti tempore veniam quisquam aliquid repellat, blanditiis ipsam quod explicabo eos minus quas laborum, consequuntur quae culpa illo illum ratione voluptates mollitia perferendis nihil recusandae facere excepturi saepe! Autem vitae modi, temporibus, eos ad ullam libero culpa quam quaerat voluptates quasi qui adipisci laborum nihil doloribus iste laudantium deserunt repudiandae alias eveniet, voluptatibus optio ipsam? Soluta provident fuga, itaque excepturi consectetur modi ipsa mollitia, possimus dolorem at ex eum natus corrupti animi cupiditate accusamus blanditiis suscipit voluptatem, dolorum dolores sint.</p>
-            </div>
+            </div> */}
           </div>
       </div>
     </div>

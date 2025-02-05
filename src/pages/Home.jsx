@@ -27,7 +27,7 @@ const Home = () => {
 
   const infinite = [
     {
-      url: '/marketing.webp',
+      url: '/Marketing.webp',
       title1: 'Business Coach'
     },
     {
