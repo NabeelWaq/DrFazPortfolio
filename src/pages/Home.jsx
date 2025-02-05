@@ -12,7 +12,7 @@ const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const slides = [
     {
-      url: '/src/assets/1.png'
+      url: '/1.png'
     },
     {
       url: '/src/assets/2.png'
