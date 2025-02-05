@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react'
-import Video from '../components/Video';
+import React, { Suspense, useEffect, useRef, useState } from 'react'
+import { Audio } from 'react-loader-spinner'
+const Video = React.lazy(() => import('../components/Video.jsx'));
 
 const KeyNoteSpeaking = () => {
   const videoRef1 = useRef(null);
@@ -200,14 +201,30 @@ const KeyNoteSpeaking = () => {
           <p className='text-base md:text-lg text-secondary text-center md:text-start' >Experience the transformative power of Dr. Faz’s keynote speeches that have inspired audiences across four continents. This video showcases dynamic presentations, heartfelt stories, and strategies that ignite motivation, foster leadership, and drive personal and professional growth.</p>
         </div>
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-        <Video thumb={'/co3.jpeg'} videoRef={videoRef1} videoSrc={"/videos/fazal2.mp4"} />
+         <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <Video thumb={'/co3.jpeg'} videoRef={videoRef1} videoSrc={"/videos/fazal2.mp4"} /></Suspense>
         </div>
       </div>
 
       {/* Section 8 */}
       <div className="w-full px-4 md:px-12 min-h-screen md:min-h-[50vh] flex flex-col md:flex-row gap-6 justify-center md:justify-center items-center bg-background">
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-        <Video videoRef={videoRef2} videoSrc={"/videos/Fazal.mp4"} />
+         <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <Video videoRef={videoRef2} videoSrc={"/videos/Fazal.mp4"} /></Suspense>
         </div>
         <div className="w-full md:w-[48%] min-h-full flex flex-col gap-3 items-center md:items-start justify-center">
           <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-semibold'>

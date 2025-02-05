@@ -1,23 +1,24 @@
-import React, { useRef } from 'react'
-import VideoTestimonial from '../components/VideoTestimonial';
+import React, { Suspense, useRef } from 'react'
+import { Audio } from 'react-loader-spinner'
+const VideoTestimonial = React.lazy(() => import('../components/VideoTestimonial'));
 
 const Testimonials = () => {
 
-   const videoRef1 = useRef(null);
-   const videoRef2 = useRef(null);
-   const videoRef3 = useRef(null);
-   const videoRef4 = useRef(null);
-   const videoRef5 = useRef(null);
-   const videoRef6 = useRef(null);
-   const videoRef7 = useRef(null);
-   const videoRef8 = useRef(null);
-   const videoRef9 = useRef(null);
-   const videoRef10 = useRef(null);
+  const videoRef1 = useRef(null);
+  const videoRef2 = useRef(null);
+  const videoRef3 = useRef(null);
+  const videoRef4 = useRef(null);
+  const videoRef5 = useRef(null);
+  const videoRef6 = useRef(null);
+  const videoRef7 = useRef(null);
+  const videoRef8 = useRef(null);
+  const videoRef9 = useRef(null);
+  const videoRef10 = useRef(null);
 
-  
-  
-  
-   
+
+
+
+
   return (
     <div className='w-full min-h-screen bg-background mt-[100px]'>
       {/* Section 1 */}
@@ -71,7 +72,7 @@ const Testimonials = () => {
         </div>
         <div reverse="true" className="slide-track flex w-[cal(250px * 9)]">
 
-        <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
+          <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
             <img className='w-full h-full rounded-xl object-cover' src="/test5.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
@@ -105,20 +106,100 @@ const Testimonials = () => {
         </div>
       </div>
 
-{/* Section 3 */}
+      {/* Section 3 */}
       <div className="w-screen min-h-screen grid grid-cols-1 md:grid-cols-2 px-4 md:px-16 py-20 gap-4 bg-white">
 
-        <VideoTestimonial thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} />
-        <VideoTestimonial thumb={'/thumb2.png'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} />
-        <VideoTestimonial thumb={'/thumb3.png'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} />
-        <VideoTestimonial thumb={'/thumb4.png'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} />
-        <VideoTestimonial thumb={'/thumb5.png'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} />
-        <VideoTestimonial thumb={'/thumb6.png'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} />
-        <VideoTestimonial thumb={'/thumb7.png'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} />
-        <VideoTestimonial thumb={'/thumb8.png'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} />
-        <VideoTestimonial thumb={'/thumb9.png'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} />
-        <VideoTestimonial thumb={'/thumb10.png'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} />
-       
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}><VideoTestimonial thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb2.png'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb3.png'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb4.png'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb5.png'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb6.png'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb7.png'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb8.png'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb9.png'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} /></Suspense>
+        <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <VideoTestimonial thumb={'/thumb10.png'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} /></Suspense>
+
       </div>
     </div>
   )

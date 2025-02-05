@@ -1,8 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import GetQuoteButton from '../components/GetQuoteButton.jsx'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { Timeline } from 'gsap/gsap-core.js'
 import Marquee from "react-fast-marquee";
 import { useNavigate } from 'react-router-dom'
 // import "https://assets.calendly.com/assets/external/widget.css";

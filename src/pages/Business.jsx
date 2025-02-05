@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
-import Video from '../components/Video';
+import React, { Suspense, useRef } from 'react'
+import { Audio } from 'react-loader-spinner'
+const Video = React.lazy(() => import('../components/Video.jsx'));
 import { useNavigate } from 'react-router-dom';
 
 const Business = () => {
@@ -58,14 +59,30 @@ const Business = () => {
       <p className='text-center sm:text-left text-sm sm:text-base text-background'>Discover the fundamental pillars of business growth with Dr. Faz. This video breaks down key frameworks, real-world success stories, and expert strategies that have transformed businesses globally.</p>
       </div>
       <div className="w-full md:w-[50%] min-h-full">
-      <Video thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} />
+      <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}><Video thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
       </div>
     </div>
     </div>
      {/* section 5 */}
      <div className="w-full min-h-[65vh] flex flex-col md:flex-row py-16 md:py-6 px-4 justify-center items-center gap-6">
      <div className="w-full md:w-[50%] min-h-full">
-     <Video thumb={'/thumb9.png'} videoRef={videoRef2} videoSrc={"/videos/8.mp4"} />
+     <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}><Video thumb={'/thumb9.png'} videoRef={videoRef2} videoSrc={"/videos/8.mp4"} /></Suspense>
       </div>
       <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
       <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl text-tritary [text-shadow:_2px_2px_4px_#000] font-bold'>Scaling Your Business with Confidence</h2>

@@ -1,5 +1,6 @@
-import React, { useRef, useState } from 'react'
-import Video from '../components/Video.jsx'
+import React, { Suspense, useRef, useState } from 'react'
+import { Audio } from 'react-loader-spinner'
+const Video = React.lazy(() => import('../components/Video.jsx'));
 
 const InspirationalTalks = () => {
   const videoRef1 = useRef(null);
@@ -46,7 +47,15 @@ const InspirationalTalks = () => {
       <h2 className='text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2'>THE ANSWER YOU HAVE BEEN LOOKING FOR</h2>
       <p className='text-lg sm:text-2xl md:text-3xl text-center text-background font-medium mx-2'>Discover the holistic soltion for positive life</p>
       <div className='w-[80%] md:w-[60%] mx-auto h-[500px]'>
-      <Video videoRef={videoRef1} videoSrc={"/videos/Fazal.mp4"} />
+      <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <Video videoRef={videoRef1} videoSrc={"/videos/Fazal.mp4"} /></Suspense>
       </div>
       </div>
       {/* Section 4 */}

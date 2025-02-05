@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
-import Video from '../components/Video'
+import React, { Suspense, useRef } from 'react'
+import { Audio } from 'react-loader-spinner'
+const Video = React.lazy(() => import('../components/Video.jsx'));
 import { useNavigate } from 'react-router-dom';
 
 const Coaching = () => {
@@ -58,14 +59,30 @@ const Coaching = () => {
         <p className='text-center sm:text-left text-sm sm:text-base text-background'>Discover how Dr. Faz’s leadership development program has transformed professionals into visionary leaders. This video showcases real success stories, breakthrough strategies, and the lasting impact of expert leadership coaching.</p>
         </div>
         <div className="w-full md:w-[50%] min-h-full">
-        <Video thumb={'/thumb7.png'} videoRef={videoRef1} videoSrc={"/videos/6.mp4"} />
+         <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}> <Video thumb={'/thumb7.png'} videoRef={videoRef1} videoSrc={"/videos/6.mp4"} /></Suspense>
         </div>
       </div>
       </div>
        {/* section 5 */}
        <div className="w-full min-h-[65vh] flex flex-col md:flex-row py-16 md:py-6 px-4 justify-center items-center gap-6">
        <div className="w-full md:w-[50%] min-h-full">
-       <Video thumb={'/thumb8.png'} videoRef={videoRef2} videoSrc={"/videos/7.mp4"} />
+         <Suspense fallback={<Audio
+  height="80"
+  width="80"
+  radius="9"
+  color="green"
+  ariaLabel="loading"
+  wrapperStyle
+  wrapperClass
+/>}><Video thumb={'/thumb8.png'} videoRef={videoRef2} videoSrc={"/videos/7.mp4"} /></Suspense>
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl [text-shadow:_2px_2px_4px_#000]  text-tritary font-bold'>Elevate Your Leadership Skills</h2>
