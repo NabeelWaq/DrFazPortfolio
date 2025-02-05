@@ -9,7 +9,7 @@ const Coaching = () => {
   return (
     <div className='w-full min-h-screen relativ mt-[108px]'>
       {/* Section 1 */}
-      <div className="w-full min-h-screen md:min-h-[70vh] bg-[url('/s2.png')] bg-center bg-cover relative flex items-center justify-center">
+      <div className="w-full min-h-screen md:min-h-[70vh] bg-[url('/src/assets/s2.png')] bg-center bg-cover relative flex items-center justify-center">
     <div className="w-full min-h-full absolute bg-primary bg-opacity-60 flex items-center gap-5 pb-40 justify-center flex-col px-5 md:px-40 md:py-10">
     <h2 className='text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-tritary font-bold'>Executive Coaching: Unlocking Leadership Excellence</h2>
       <p className='text-center text-sm sm:text-base text-background md:w-[800px]'>In today’s fast-paced business world, strong leadership is the key to success. Our executive coaching program empowers leaders with the skills, mindset, and strategies needed to drive growth, enhance decision-making, and lead with confidence. Through personalized guidance, we help executives navigate challenges, improve team dynamics, and achieve their full potential. Elevate your leadership journey with expert coaching tailored to your unique goals.</p>
@@ -19,7 +19,7 @@ const Coaching = () => {
       {/* Section 2 */}
       <div className="w-full min-h-[65vh] flex flex-col md:flex-row py-16 md:py-6 px-4 justify-center items-center gap-6">
         <div className="w-full md:w-[50%] min-h-full">
-          <img src="/s9.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
+          <img src="/src/assets/s9.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl [text-shadow:_2px_2px_4px_#000]  text-tritary font-bold'>Transformative Executive Coaching</h2>
@@ -35,7 +35,7 @@ const Coaching = () => {
         <button onClick={() => navigate('/contact')} className='bg-thrice text-background sm:text-2xl hover:bg-tritary hover:text-primary text-base px-3 py-2 sm:px-12 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Contact Faz</button>
         </div>
         <div className="w-full md:w-[50%] min-h-full">
-          <img src="/s10.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
+          <img src="/src/assets/s10.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
         </div>
       </div>
       {/* Section 4 */}
@@ -43,7 +43,7 @@ const Coaching = () => {
         {/* sub-sec 1 */}
         <div className="w-full min-h-[65vh] flex flex-col md:flex-row py-16 md:py-6 px-4 justify-center items-center gap-6">
         <div className="w-full md:w-[50%] min-h-full">
-          <img src="/s11.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
+          <img src="/src/assets/s11.png" className='w-[80%] mx-auto h-[400px] object-cover object-center rounded-3xl' alt="" />
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl [text-shadow:_2px_2px_4px_#000]  text-tritary font-bold'>Personalized Growth for Executive Success</h2>
@@ -58,14 +58,14 @@ const Coaching = () => {
         <p className='text-center sm:text-left text-sm sm:text-base text-background'>Discover how Dr. Faz’s executive coaching has transformed leaders and businesses worldwide. This video highlights real success stories, breakthrough moments, and the impact of personalized leadership coaching.</p>
         </div>
         <div className="w-full md:w-[50%] min-h-full">
-        <Video thumb={'/thumb7.png'} videoRef={videoRef1} videoSrc={"/videos/6.mp4"} />
+        <Video thumb={'/src/assets/thumb7.png'} videoRef={videoRef1} videoSrc={"/src/assets/videos/6.mp4"} />
         </div>
       </div>
       </div>
        {/* section 5 */}
        <div className="w-full min-h-[65vh] flex flex-col md:flex-row py-16 md:py-6 px-4 justify-center items-center gap-6">
        <div className="w-full md:w-[50%] min-h-full">
-       <Video thumb={'/thumb8.png'} videoRef={videoRef2} videoSrc={"/videos/7.mp4"} />
+       <Video thumb={'/src/assets/thumb8.png'} videoRef={videoRef2} videoSrc={"/src/assets/videos/7.mp4"} />
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl [text-shadow:_2px_2px_4px_#000]  text-tritary font-bold'>Elevate Your Leadership Potential</h2>

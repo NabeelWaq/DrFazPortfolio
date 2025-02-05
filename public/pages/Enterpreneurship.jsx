@@ -17,7 +17,7 @@ const Enterpreneurship = () => {
   return (
     <div className='w-full relative min-h-screen mt-[108px]'>
       {/* Section 1 */}
-      <div className="relative w-full min-h-[140vh] sm:min-h-screen flex justify-center bg-[url('/leadership1.png')] bg-cover bg-left md:bg-top bg-fixed md:justify-end items-center px-4 md:px-6 py-16">
+      <div className="relative w-full min-h-[140vh] sm:min-h-screen flex justify-center bg-[url('/src/assets/leadership1.png')] bg-cover bg-left md:bg-top bg-fixed md:justify-end items-center px-4 md:px-6 py-16">
         <div className="w-full sm:w-[80%] md:w-[50%] min-h-full bg-primary bg-opacity-50 px-4 md:px-8 py-10 rounded-lg flex flex-col gap-5 justify-center items-center md:items-start">
           <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-background [text-shadow:_0_6px_8px_#000000] text-center md:text-start'>Inspire. Lead. Transform.</h1>
           <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-background'>Explore transformative workshops and keynotes packed with actionable insights to elevate your team, cultivate impactful leaders, and drive lasting change.</h4>
@@ -29,7 +29,7 @@ const Enterpreneurship = () => {
     
         <div className="relative w-full min-h-full px-4 md:px-12 py-14 flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start bg-primary gap-6">
           <div className="w-full relative md:w-[48%] h-[400px] flex items-center justify-center">
-            <img src="/lw1.png" className='w-full md:w-[80%] h-[80%] md:h-[80%] object-cover rounded-lg' alt="" />
+            <img src="/src/assets/lw1.png" className='w-full md:w-[80%] h-[80%] md:h-[80%] object-cover rounded-lg' alt="" />
           </div>
           <div className="relative w-full md:w-[48%] h-full flex flex-col gap-4 items-center md:items-start justify-center">
             <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-background [text-shadow:_0_6px_8px_#000000] text-center md:text-start'>Empowering Leaders on a Global Stage</h1>
@@ -48,14 +48,14 @@ const Enterpreneurship = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-primary [text-shadow:_0_6px_8px_#fff]'>Discover the power of goal-oriented leadership..</h4>
           </div>
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-          <img src="/lw3.png" alt="img" className='w-[90%] h-[300px] md:h-[400px] rounded-lg object-cover' />
+          <img src="/src/assets/lw3.png" alt="img" className='w-[90%] h-[300px] md:h-[400px] rounded-lg object-cover' />
         </div>
       </div>
 
       {/* Section 4 */}
       <div className="relative w-full min-h-full px-4 md:px-12 py-14 flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start bg-primary gap-6">
           <div className="w-full relative md:w-[48%] h-[400px] flex items-center justify-center">
-            <img src="/lw2.png" className='w-full md:w-[80%] h-[80%] md:h-[100%] object-cover rounded-lg' alt="" />
+            <img src="/src/assets/lw2.png" className='w-full md:w-[80%] h-[80%] md:h-[100%] object-cover rounded-lg' alt="" />
           </div>
           <div className="relative w-full md:w-[48%] h-full flex flex-col gap-4 items-center md:items-start justify-center">
             <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-background [text-shadow:_0_6px_8px_#000000] text-center md:text-start'>Driving Business Growth: FPCCI Workshop</h1>
@@ -74,12 +74,12 @@ const Enterpreneurship = () => {
             <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-primary [text-shadow:_0_6px_8px_#fff]'>Shape your future with visionary leadership.</h4>
           </div>
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-          <img src="/co3.jpeg" alt="img" className='w-[90%] h-[300px] md:h-[400px] rounded-lg object-cover' />
+          <img src="/src/assets/co3.jpeg" alt="img" className='w-[90%] h-[300px] md:h-[400px] rounded-lg object-cover' />
         </div>
       </div>
 
       {/* Section 6 */}
-      {/* <div className="relative w-full min-h-screen flex justify-center bg-[url('/4.png')] bg-cover bg-left md:bg-top md:justify-end items-center px-4 md:px-6 py-16">
+      {/* <div className="relative w-full min-h-screen flex justify-center bg-[url('/src/assets/4.png')] bg-cover bg-left md:bg-top md:justify-end items-center px-4 md:px-6 py-16">
         <div className="w-full min-h-full bg-background opacity-75 absolute top-0 left-0 z-10"></div>
         <div className="w-full sm:w-[80%] md:w-[50%] min-h-[600px] px-4 md:px-8 py-10 rounded-lg flex flex-col gap-5 justify-center items-center md:items-start relative z-[15]">
             <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold leading-[40px] text-primary [text-shadow:_0_6px_8px_#fff] text-center md:text-start'>Leading with Purpose: Karachi Gymkhana Workshop</h1>
@@ -90,7 +90,7 @@ const Enterpreneurship = () => {
       </div> */}
 
       {/* Section 7 */}
-      <div className="w-full min-h-screen md:min-h-[60vh] bg-[url('/3.png')] bg-cover bg-center relative flex items-center justify-center md:justify-start">
+      <div className="w-full min-h-screen md:min-h-[60vh] bg-[url('/src/assets/3.png')] bg-cover bg-center relative flex items-center justify-center md:justify-start">
         <div className="absolute w-full min-h-full bg-primary bg-opacity-70 z-10"></div>
         <div className="relative z-[18] flex flex-col gap-4 items-center justify-center md:items-start w-full md:w-[70%] px-4 md:px-40 py-10">
           <h2 className='w-full text-2xl md:text-3xl lg:text-4xl font-extrabold text-background [text-shadow:_2px_4px_4px_#000] text-center md:text-start'>Book Faz Now To Make Your Life Positive</h2>

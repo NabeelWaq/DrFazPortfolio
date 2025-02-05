@@ -111,7 +111,7 @@ gsap.registerPlugin(ScrollTrigger);
    }} className={"text-lg text-center hover:text-tritary"} to={"/contact"}>Contact</NavLink>
    <div className="relative w-[150px] h-[100px] p-0 m-0 logo">
   <img 
-    src="/logo.png" 
+    src="/src/assets/logo.png" 
     className="absolute top-0 w-[150px] h-[180px] rounded-full object-cover p-0 m-0" 
     alt="Logo" 
   />
@@ -175,7 +175,7 @@ gsap.registerPlugin(ScrollTrigger);
   <i onClick={() => setShowMenu(true)} className="ri-menu-5-line text-background text-4xl cursor-pointer hover:text-tritary"></i>
   <div className="relative w-[150px] h-[100px] p-0 m-0">
   <img 
-    src="/logo.png" 
+    src="/src/assets/logo.png" 
     className="absolute -top-2 w-[150px] h-[180px] rounded-full object-cover p-0 m-0" 
     alt="Logo" 
   />

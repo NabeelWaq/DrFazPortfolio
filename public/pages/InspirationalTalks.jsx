@@ -19,7 +19,7 @@ const InspirationalTalks = () => {
   return (
   <div className="w-full min-h-screen relative mt-[108px]">
     {/* Section 1 */}
-    <div className="w-full min-h-[120vh] md:min-h-screen bg-[url('/is1.png')] bg-center bg-cover relative">
+    <div className="w-full min-h-[120vh] md:min-h-screen bg-[url('/src/assets/is1.png')] bg-center bg-cover relative">
     <div className="bg-primary bg-opacity-65 w-full min-h-full absolute flex flex-col gap-8 items-center justify-center px-4 md:px-32 py-14">
     <h1 className='text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-background font-bold'>So Much More Than <br />
     <span className='text-tritary'>Selling with Integrity</span></h1>
@@ -29,10 +29,10 @@ const InspirationalTalks = () => {
     </div>
     </div>
     {/* Section 2 */}
-    <div className="w-full min-h-[120vh] md:min-h-screen bg-[url('/aboutpage6.png')] bg-center bg-cover relative">
+    <div className="w-full min-h-[120vh] md:min-h-screen bg-[url('/src/assets/aboutpage6.png')] bg-center bg-cover relative">
     <div className="bg-background bg-opacity-85 w-full min-h-full absolute flex flex-col md:flex-row gap-8 items-center justify-center px-4 md:px-32 py-14">
     <div className="w-full md:w-[50%] min-h-full">
-          <img src="/co4.jpeg" className='w-[80%] md:w-full mx-auto h-[300px] md:h-[450px] object-cover object-center rounded-3xl' alt="" />
+          <img src="/src/assets/co4.jpeg" className='w-[80%] md:w-full mx-auto h-[300px] md:h-[450px] object-cover object-center rounded-3xl' alt="" />
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_4px_4px_#000]'>Ignite Transformation with Tailored Talks</h2>
@@ -46,7 +46,7 @@ const InspirationalTalks = () => {
       <h2 className='text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2'>THE ANSWER YOU HAVE BEEN LOOKING FOR</h2>
       <p className='text-lg sm:text-2xl md:text-3xl text-center text-background font-medium mx-2'>Discover the holistic soltion for positive life</p>
       <div className='w-[80%] md:w-[60%] mx-auto h-[500px]'>
-      <Video videoRef={videoRef1} videoSrc={"/videos/10.mp4"} />
+      <Video videoRef={videoRef1} videoSrc={"/src/assets/videos/10.mp4"} />
       </div>
       </div>
       {/* Section 4 */}
@@ -60,7 +60,7 @@ const InspirationalTalks = () => {
     </div>
     </div>
      {/* Section 6 */}
-     <div className="w-full min-h-[70vh] md:min-h-screen bg-[url('/4.png')] bg-fixed bg-center bg-cover relative">
+     <div className="w-full min-h-[70vh] md:min-h-screen bg-[url('/src/assets/4.png')] bg-fixed bg-center bg-cover relative">
     <div className="bg-background bg-opacity-85 w-full min-h-full absolute flex flex-col gap-8 items-center justify-center px-4 md:px-32 py-14">
     <h1 className='text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary font-bold'>Meaningfull Messages That <br />
     <span className='text-tritary'>Resonate</span></h1>

@@ -24,8 +24,8 @@ const KeyNoteSpeaking = () => {
 
       {/* Section 1 */}
       <div className='w-full h-[150vh] md:h-screen flex flex-col md:flex-row bg-background relative'>
-        <img src="/ks1.png" alt="img" className='w-full h-full md:h-full object-cover object-[20%]' />
-        {/* <img src="/4.png" alt="img" className='w-full md:w-[50%] h-[50%] md:h-full object-cover object-left' /> */}
+        <img src="/src/assets/ks1.png" alt="img" className='w-full h-full md:h-full object-cover object-[20%]' />
+        {/* <img src="/src/assets/4.png" alt="img" className='w-full md:w-[50%] h-[50%] md:h-full object-cover object-left' /> */}
         <div className="absolute top-1/2 md:top-[40%] -translate-y-[50%] left-1/2 -translate-x-[50%] md:-translate-x-[unset] md:left-[unset] md:right-[-15%] bg-background bg-opacity-60 w-[90%] md:w-[50%] min-h-[80%] md:min-h-[50%] rounded-xl flex flex-col py-8 px-8 items-center gap-4 justify-center">
           <h1 className='text-center text-3xl sm:text-4xl md:text-5xl text-white font-bold tracking-tight [text-shadow:_0_2px_8px_#000000]'>
             Book Dr. <span className='text-tritary '>Faz To Inspire and Transform</span>
@@ -57,7 +57,7 @@ const KeyNoteSpeaking = () => {
         <h4 className='text-xl md:text-2xl text-center md:text-start text-secondary px-4'>Dr Faz speaks on MPT (Marketing, Personal Growth and Technology)</h4>
         <div className="relative w-full min-h-full px-4 md:px-12 py-16 flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start bg-primary gap-6">
           <div className="w-full relative md:w-[48%] h-[400px] md:h-[800px] flex items-start justify-center">
-            <img src="/kl1.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-left' alt="" />
+            <img src="/src/assets/kl1.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-left' alt="" />
           </div>
           <div className="relative w-full md:w-[48%] h-full flex flex-col gap-4 items-center md:items-start justify-center">
             <h2 className='text-center md:text-start text-3xl sm:text-4xl md:text-5xl text-background font-bold tracking-wider'>
@@ -120,7 +120,7 @@ const KeyNoteSpeaking = () => {
             <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
-            <img src="/kr1.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
+            <img src="/src/assets/kr1.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@ const KeyNoteSpeaking = () => {
 
         <div className="relative w-full min-h-full px-4 md:px-12 py-16 flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start bg-primary gap-6">
           <div className="w-full relative md:w-[48%] min-h-full flex items-start justify-center">
-            <img src="/kl2.png" className='w-full md:w-[80%] h-[60%] md:h-[50%] rounded-lg' alt="" />
+            <img src="/src/assets/kl2.png" className='w-full md:w-[80%] h-[60%] md:h-[50%] rounded-lg' alt="" />
           </div>
           <div className="relative w-full md:w-[48%] h-full flex flex-col gap-4 items-center md:items-start justify-center">
             <h2 className='text-center md:text-start text-3xl sm:text-4xl md:text-5xl text-background font-bold tracking-wider'>
@@ -186,7 +186,7 @@ const KeyNoteSpeaking = () => {
             <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
-            <img src="/kr2.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
+            <img src="/src/assets/kr2.png" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
           </div>
         </div>
       </div>
@@ -200,14 +200,14 @@ const KeyNoteSpeaking = () => {
           <p className='text-base md:text-lg text-secondary text-center md:text-start' >Experience the transformative power of Dr. Faz’s keynote speeches that have inspired audiences across four continents. This video showcases dynamic presentations, heartfelt stories, and strategies that ignite motivation, foster leadership, and drive personal and professional growth.</p>
         </div>
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-        <Video thumb={'/co3.jpeg'} videoRef={videoRef1} videoSrc={"/videos/fazal2.mp4"} />
+        <Video thumb={'/src/assets/co3.jpeg'} videoRef={videoRef1} videoSrc={"/src/assets/videos/fazal2.mp4"} />
         </div>
       </div>
 
       {/* Section 8 */}
       <div className="w-full px-4 md:px-12 min-h-screen md:min-h-[50vh] flex flex-col md:flex-row gap-6 justify-center md:justify-center items-center bg-background">
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
-        <Video videoRef={videoRef2} videoSrc={"/videos/Fazal.mp4"} />
+        <Video videoRef={videoRef2} videoSrc={"/src/assets/videos/Fazal.mp4"} />
         </div>
         <div className="w-full md:w-[48%] min-h-full flex flex-col gap-3 items-center md:items-start justify-center">
           <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-semibold'>
@@ -219,14 +219,14 @@ const KeyNoteSpeaking = () => {
 
       {/* Section 9 */}
       <div className="w-full min-h-[60vh] bg-primary grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center gap-10 py-10 px-4 md:px-12 mt-16">
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/2.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/3.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/2.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/4.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/testimonial1.jpg" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/1.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/3.png" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/aboutpage2.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/2.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/3.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/2.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/4.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/testimonial1.jpg" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/1.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/3.png" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/src/assets/aboutpage2.png" alt="" />
       </div>
 
     </div>

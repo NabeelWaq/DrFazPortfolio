@@ -21,7 +21,7 @@ const Testimonials = () => {
   return (
     <div className='w-full min-h-screen bg-background mt-[100px]'>
       {/* Section 1 */}
-      <div className="w-full min-h-[130vh] bg-[url('/testimonial1.png')] bg-cover bg-center md:min-h-[85vh] flex flex-col md:flex-row gap-10 md:gap-8 px-4 md:px-8 py-8 justify-center md:justify-between items-center pt-[80px]">
+      <div className="w-full min-h-[130vh] bg-[url('/src/assets/testimonial1.png')] bg-cover bg-center md:min-h-[85vh] flex flex-col md:flex-row gap-10 md:gap-8 px-4 md:px-8 py-8 justify-center md:justify-between items-center pt-[80px]">
         {/* Left */}
         <div className="flex flex-col items-center justify-center md:items-start gap-2 w-full md:w-[50%]">
           <h4 className='flex justify-center items-center gap-4 text-primary text-lg font-light text-center md:text-start'>TESTIMONIALS <span className='w-10 h-[1px] bg-primary'></span></h4>
@@ -38,68 +38,68 @@ const Testimonials = () => {
         <div className="slide-track flex w-[cal(250px * 9)] mt-10">
 
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test10.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test10.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test9.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test9.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test8.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test8.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test7.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test7.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test6.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test6.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test10.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test10.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test9.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test9.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test8.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test8.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test7.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test7.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test6.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test6.png" alt="" />
           </div>
 
         </div>
         <div reverse="true" className="slide-track flex w-[cal(250px * 9)]">
 
         <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test5.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test5.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test4.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test4.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test3.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test3.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test2.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test2.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test1.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test1.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test5.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test5.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test4.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test4.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test3.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test3.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test2.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test2.png" alt="" />
           </div>
           <div className="slide rounded-xl h-[250px] w-[350px] flex items-center p-[15px]">
-            <img className='w-full h-full rounded-xl object-cover' src="/test1.png" alt="" />
+            <img className='w-full h-full rounded-xl object-cover' src="/src/assets/test1.png" alt="" />
           </div>
 
         </div>
@@ -108,16 +108,16 @@ const Testimonials = () => {
 {/* Section 3 */}
       <div className="w-screen min-h-screen grid grid-cols-1 md:grid-cols-2 px-4 md:px-16 py-20 gap-4 bg-white">
 
-        <VideoTestimonial thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} />
-        <VideoTestimonial thumb={'/thumb2.png'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} />
-        <VideoTestimonial thumb={'/thumb3.png'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} />
-        <VideoTestimonial thumb={'/thumb4.png'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} />
-        <VideoTestimonial thumb={'/thumb5.png'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} />
-        <VideoTestimonial thumb={'/thumb6.png'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} />
-        <VideoTestimonial thumb={'/thumb7.png'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} />
-        <VideoTestimonial thumb={'/thumb8.png'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} />
-        <VideoTestimonial thumb={'/thumb9.png'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} />
-        <VideoTestimonial thumb={'/thumb10.png'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb1.png'} videoRef={videoRef1} videoSrc={"/src/assets/videos/10.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb2.png'} videoRef={videoRef2} videoSrc={"/src/assets/videos/1.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb3.png'} videoRef={videoRef3} videoSrc={"/src/assets/videos/2.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb4.png'} videoRef={videoRef4} videoSrc={"/src/assets/videos/3.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb5.png'} videoRef={videoRef5} videoSrc={"/src/assets/videos/4.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb6.png'} videoRef={videoRef6} videoSrc={"/src/assets/videos/5.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb7.png'} videoRef={videoRef7} videoSrc={"/src/assets/videos/6.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb8.png'} videoRef={videoRef8} videoSrc={"/src/assets/videos/7.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb9.png'} videoRef={videoRef9} videoSrc={"/src/assets/videos/8.mp4"} />
+        <VideoTestimonial thumb={'/src/assets/thumb10.png'} videoRef={videoRef10} videoSrc={"/src/assets/videos/9.mp4"} />
        
       </div>
     </div>
