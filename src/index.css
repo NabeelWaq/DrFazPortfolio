@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: arms;
-  src: url('/src/assets/fonts/amsterdam-four.ttf');
+  src: url('/fonts/amsterdam-four.ttf');
 }
 
 @tailwind base;
