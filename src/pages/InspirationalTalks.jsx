@@ -46,7 +46,7 @@ const InspirationalTalks = () => {
       <h2 className='text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2'>THE ANSWER YOU HAVE BEEN LOOKING FOR</h2>
       <p className='text-lg sm:text-2xl md:text-3xl text-center text-background font-medium mx-2'>Discover the holistic soltion for positive life</p>
       <div className='w-[80%] md:w-[60%] mx-auto h-[500px]'>
-      <Video videoRef={videoRef1} videoSrc={"/videos/10.mp4"} />
+      <Video videoRef={videoRef1} videoSrc={"/videos/Fazal.mp4"} />
       </div>
       </div>
       {/* Section 4 */}
