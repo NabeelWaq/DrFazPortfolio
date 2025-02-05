@@ -100,14 +100,17 @@ gsap.registerPlugin(ScrollTrigger);
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/"}>Home</NavLink>
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/about"}>About Me</NavLink>
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/contact"}>Contact</NavLink>
    <div className="relative w-[150px] h-[100px] p-0 m-0 logo">
   <img 
@@ -120,6 +123,7 @@ gsap.registerPlugin(ScrollTrigger);
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/testimonials"}>Testimonials</NavLink>
    <div className="relative">
   <h4 onClick={() => {setDropdown1(!dropdown1); setDropdown2(false)}} className={"text-lg text-center hover:text-tritary cursor-pointer flex items-center justify-center"}>Speaking Engagements <span><i className="ri-arrow-drop-down-line"></i></span></h4>
@@ -127,18 +131,22 @@ gsap.registerPlugin(ScrollTrigger);
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/keynotespeaking'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Keynote Speeches</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/enterpreneurship"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Leadership Workshops</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/corporatetraining'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Corporate Training</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/inspirational'} className="p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Inspirational Talks</NavLink>
   </ul>
 </div>
@@ -149,22 +157,27 @@ gsap.registerPlugin(ScrollTrigger);
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/coaching"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Executive Coaching</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/leadership"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Leadership Development</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/salesTraining'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Communication Skills Training</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/business'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Business Growth Strategies</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/dreamBuilding'} className="p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Dream Building Programs</NavLink>
   </ul>
 </div>
@@ -183,7 +196,7 @@ gsap.registerPlugin(ScrollTrigger);
   </nav>
   <div
         id="mobile-menu"
-        className="absolute top-0 w-full min-h-screen  bg-primary text-background z-40 flex flex-col lg:hidden items-center justify-center gap-4 px-5 py-10"
+        className="fixed top-0 w-full min-h-screen  bg-primary text-background z-40 flex flex-col lg:hidden items-center justify-center gap-4 px-5 py-10"
         style={{ display: showMenu ? "flex" : "none" }}
       >
         <i
@@ -194,18 +207,22 @@ gsap.registerPlugin(ScrollTrigger);
         <NavLink onClick={() => {
           setDropdown1(false);
           setDropdown2(false);
+          setShowMenu(false);
         }} className={"text-lg text-center hover:text-tritary"} to={"/"}>Home</NavLink>
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/about"}>About Me</NavLink>
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/contact"}>Contact</NavLink>
    <NavLink onClick={() => {
     setDropdown1(false);
     setDropdown2(false);
+    setShowMenu(false);
    }} className={"text-lg text-center hover:text-tritary"} to={"/testimonials"}>Testimonials</NavLink>
 
    <div className="relative">
@@ -214,18 +231,22 @@ gsap.registerPlugin(ScrollTrigger);
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/keynotespeaking'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Keynote Speeches</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/enterpreneurship"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Leadership Workshops</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/corporatetraining'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Corporate Training</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/inspirational'} className="p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Inspirational Talks</NavLink>
   </ul>
 </div>
@@ -236,22 +257,27 @@ gsap.registerPlugin(ScrollTrigger);
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/coaching"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Executive Coaching</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={"/leadership"} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Leadership Development</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/salesTraining'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Communication Skills Training</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/business'} className="border-b border-tealLight p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Business Growth Strategies</NavLink>
     <NavLink onClick={() => {
       setDropdown1(false);
       setDropdown2(false);
+      setShowMenu(false);
     }} to={'/dreamBuilding'} className="p-4 w-full hover:bg-tealLight hover:text-white transition duration-300">Dream Building Programs</NavLink>
   </ul>
 </div>
