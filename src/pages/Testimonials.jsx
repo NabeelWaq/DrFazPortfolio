@@ -117,7 +117,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}><VideoTestimonial thumb={'/thumb1.png'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
+/>}><VideoTestimonial thumb={'/thumb1.webp'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -126,7 +126,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb2.png'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb2.webp'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -135,7 +135,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb3.png'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb3.webp'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -144,7 +144,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb4.png'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb4.webp'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -153,7 +153,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb5.png'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb5.webp'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -162,7 +162,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb6.png'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb6.webp'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -171,7 +171,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb7.png'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb7.webp'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -180,7 +180,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb8.png'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb8.webp'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -189,7 +189,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb9.png'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb9.webp'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -198,7 +198,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb10.png'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} /></Suspense>
+/>}> <VideoTestimonial thumb={'/thumb10.webp'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} /></Suspense>
 
       </div>
     </div>

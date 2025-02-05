@@ -67,7 +67,7 @@ const Coaching = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <Video thumb={'/thumb7.png'} videoRef={videoRef1} videoSrc={"/videos/6.mp4"} /></Suspense>
+/>}> <Video thumb={'/thumb7.webp'} videoRef={videoRef1} videoSrc={"/videos/6.mp4"} /></Suspense>
         </div>
       </div>
       </div>
@@ -82,7 +82,7 @@ const Coaching = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}><Video thumb={'/thumb8.png'} videoRef={videoRef2} videoSrc={"/videos/7.mp4"} /></Suspense>
+/>}><Video thumb={'/thumb8.webp'} videoRef={videoRef2} videoSrc={"/videos/7.mp4"} /></Suspense>
         </div>
         <div className="w-full md:w-[50%] min-h-full flex flex-col gap-4 md:mr-14 items-center md:items-start justify-center">
         <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl [text-shadow:_2px_2px_4px_#000]  text-tritary font-bold'>Elevate Your Leadership Skills</h2>
