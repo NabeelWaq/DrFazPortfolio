@@ -175,8 +175,8 @@ const VideoTestimonial = ({videoRef,videoSrc,thumb,caption,heading}) => {
     </div>
     <video onLoadedData={(e) => updateDuration(e)} onTimeUpdate={(e) => timeUpdate(e)} ref={videoRef} poster={thumb} className='w-full h-full px-2 rounded-lg' src={videoSrc}></video>
   </div>
-  <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-extrabold'>{heading}</h4>
-  <h4 className='text-lg md:text-xl text-center md:text-start text-black [text-shadow:_0px_1px_2px_#2f6690] font-normal'>{caption}</h4>
+  <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-extrabold'>{caption}</h4>
+  <h4 className='text-lg md:text-xl text-center md:text-start text-black [text-shadow:_0px_1px_2px_#2f6690] font-normal'>{heading}</h4>
   </div>
   )
 }
