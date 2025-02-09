@@ -338,7 +338,7 @@ containerRef.current.classList.remove("show-controls")
       scroller:"body",
       trigger:".sec6-con",
       start:"top 800",
-      end:"top 150",
+      end:"top 100",
       scrub:true,
     }
   }))
