@@ -358,7 +358,7 @@ containerRef.current.classList.remove("show-controls")
   }))
   gsap.from(".sec8-con",({
     y:100,
-    duration:1,
+    duration:2,
     opacity:0,
     stagger:1,
     ease:"power1.in",
@@ -621,7 +621,7 @@ containerRef.current.classList.remove("show-controls")
           <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <button className='sec6-con bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold transition-all ease-in-out duration-500'><a href="https://youtube.com/" target='_blank'>More Videos</a></button>
+        <button className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold transition-all ease-in-out duration-500'><a href="https://youtube.com/" target='_blank'>More Videos</a></button>
         <button></button>
       </div>
 
