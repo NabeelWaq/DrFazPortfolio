@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -24,8 +25,8 @@ const Footer = () => {
         <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-background'>Quick Links</h4>
         <ul className='flex flex-col gap-2 mt-4 text-white items-centerjc
         '>
-          <li className='list-disc cursor-pointer hover:text-background text-center md:text-start'>Contact Faz</li>
-          <li className='list-disc cursor-pointer hover:text-background text-center md:text-start'>About Faz</li>
+          <li className='list-disc cursor-pointer hover:text-background text-center md:text-start'><NavLink to={'/contact'}> Contact Faz</NavLink></li>
+          <li className='list-disc cursor-pointer hover:text-background text-center md:text-start'><NavLink to={"/about"}> About Faz</NavLink></li>
         </ul>
         </div>
         </div>
