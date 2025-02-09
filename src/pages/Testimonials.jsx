@@ -117,7 +117,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}><VideoTestimonial thumb={'/thumb1.webp'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
+/>}><VideoTestimonial caption={"Ana Sasmiresan"} heading={"Ana’s leadership journey has been nothing short of inspiring, as she applies John Maxwell’s principles to foster growth and transformation in organizations worldwide."} thumb={'/thumb1.webp'} videoRef={videoRef1} videoSrc={"/videos/10.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -126,7 +126,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb2.webp'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Gary Whit"} heading={"With a passion for mentoring and leadership excellence, Gary White embodies the values of influence, connection, and strategic development in every endeavor"} thumb={'/thumb2.webp'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -135,7 +135,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb3.webp'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Tim Novak"} heading={"Tim’s ability to turn vision into action has helped countless individuals unlock their leadership potential and embrace their path to success."} thumb={'/thumb3.webp'} videoRef={videoRef3} videoSrc={"/videos/2.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -144,7 +144,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb4.webp'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Dr. Michael Koku"} heading={"Dr. Koku’s commitment to personal and professional development has empowered leaders across industries, shaping impactful strategies for growth."} thumb={'/thumb4.webp'} videoRef={videoRef4} videoSrc={"/videos/3.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -153,7 +153,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb5.webp'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"John Alston"} heading={"John Alston’s dedication to leadership training has transformed organizations, equipping professionals with the tools to lead with confidence and clarity"} thumb={'/thumb5.webp'} videoRef={videoRef5} videoSrc={"/videos/4.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -162,7 +162,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb6.webp'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Michael Pope Jr."} heading={"Michael Pope Jr. is a dynamic leader who leverages John Maxwell’s principles to inspire and cultivate a culture of growth and excellence."} thumb={'/thumb6.webp'} videoRef={videoRef6} videoSrc={"/videos/5.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -171,7 +171,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb7.webp'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"M"} heading={"M’s leadership insights and coaching expertise have helped teams navigate challenges, build resilience, and achieve extraordinary success"} thumb={'/thumb7.webp'} videoRef={videoRef7} videoSrc={"/videos/6.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -180,7 +180,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb8.webp'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Florin Lungu"} heading={"Florin’s passion for leadership development has influenced emerging and seasoned leaders alike, driving sustainable growth and innovation."} thumb={'/thumb8.webp'} videoRef={videoRef8} videoSrc={"/videos/7.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -189,7 +189,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb9.webp'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Montez Jones"} heading={"Montez’s transformational approach to leadership has helped individuals break barriers, embrace change, and reach new heights in their careers."} thumb={'/thumb9.webp'} videoRef={videoRef9} videoSrc={"/videos/8.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
@@ -198,7 +198,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial thumb={'/thumb10.webp'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Terry Mann"} heading={"Terry’s unwavering commitment to leadership excellence has inspired countless individuals to lead with integrity, vision, and impact."} thumb={'/thumb10.webp'} videoRef={videoRef10} videoSrc={"/videos/9.mp4"} /></Suspense>
 
       </div>
     </div>

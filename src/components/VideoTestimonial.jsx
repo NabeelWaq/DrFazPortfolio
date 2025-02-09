@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 
-const VideoTestimonial = ({videoRef,videoSrc,thumb}) => {
+const VideoTestimonial = ({videoRef,videoSrc,thumb,caption,heading}) => {
 
      const playPauseBtn = useRef(null);
         const progressBar = useRef(null);
@@ -175,8 +175,8 @@ const VideoTestimonial = ({videoRef,videoSrc,thumb}) => {
     </div>
     <video onLoadedData={(e) => updateDuration(e)} onTimeUpdate={(e) => timeUpdate(e)} ref={videoRef} poster={thumb} className='w-full h-full px-2 rounded-lg' src={videoSrc}></video>
   </div>
-  <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-extrabold'>John C Maxwell</h4>
-  <h4 className='text-lg md:text-xl text-center md:text-start text-black [text-shadow:_0px_1px_2px_#2f6690] font-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, repellat.</h4>
+  <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-extrabold'>{heading}</h4>
+  <h4 className='text-lg md:text-xl text-center md:text-start text-black [text-shadow:_0px_1px_2px_#2f6690] font-normal'>{caption}</h4>
   </div>
   )
 }
