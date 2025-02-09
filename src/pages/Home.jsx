@@ -1,3 +1,5 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 import React, { useEffect, useRef, useState } from 'react'
 import Marquee from "react-fast-marquee";
 import { useNavigate } from 'react-router-dom'
@@ -217,6 +219,200 @@ containerRef.current.classList.remove("show-controls")
  
   const navigate = useNavigate();
 
+  useGSAP(() => {
+  gsap.from(".carousel-con",({
+    y:100,
+    duration:.5,
+    delay:.5,
+    opacity:0,
+    ease:'power1.in'
+  }))
+  gsap.from(".ri-arrow-left-circle-fill",({
+    x:-50,
+    duration:.5,
+    delay:1,
+    opacity:0,
+    ease:"power1.in"
+  }))
+  gsap.from(".ri-arrow-right-circle-fill",({
+    x:50,
+    duration:.5,
+    delay:1,
+    opacity:0,
+    ease:"power1.in"
+  }))
+  gsap.from(".sec2-con",({
+    x:100,
+    duration:.5,
+    delay:.5,
+    opacity:0,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec2-con",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec3-con",({
+    y:100,
+    duration:2,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec3-con",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec4-con",({
+    x:-100,
+    duration:2,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec4-con",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec4-img",({
+    x:300,
+    duration:2,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec4-img",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec5-left",({
+    x:-200,
+    delay:1,
+    duration:2,
+    opacity:0,
+    
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec5-left",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec5-right",({
+    x:200,
+    delay:1,
+    duration:2,
+    opacity:0,
+    
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec5-right",
+      start:"top 500",
+      end:"top -10",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec6-con",({
+    y:100,
+    duration:2,
+    delay:.5,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec6-con",
+      start:"top 800",
+      end:"top 150",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec7-con",({
+    y:100,
+    duration:1,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec7-con",
+      start:"top 400",
+      end:"top 200",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec8-con",({
+    y:100,
+    duration:1,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec8-con",
+      start:"top 400",
+      end:"top 200",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec9-con",({
+    y:100,
+    duration:1,
+    opacity:0,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec9-con",
+      start:"top 400",
+      end:"top 250",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec10-left",({
+    x:-200,
+    duration:2,
+    opacity:0,
+    ease:"power1.in",
+    stagger:1,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec10-left",
+      start:"top 400",
+      end:"top -50",
+      scrub:true,
+    }
+  }))
+  gsap.from(".sec10-right",({
+    x:200,
+    duration:2,
+    opacity:0,
+    stagger:1,
+    ease:"power1.in",
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".sec10-right",
+      start:"top 500",
+      end:"top -350",
+      scrub:true,
+    }
+  }))
+  },[])
+
   return (
     <div onClick={(e) => checkClick(e)} className='w-full min-h-screen overflow-x-hidden'>
       {/* <GetQuoteButton /> */}
@@ -226,7 +422,7 @@ containerRef.current.classList.remove("show-controls")
           {(currentIndex%2) === 0 ? <>
           {
             currentIndex === 0 && (
-              <div className="absolute top-[50%] left-[50%] md:right-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:left-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
+              <div className="carousel-con absolute top-[50%] left-[50%] md:right-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:left-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
                   <h1 className='w-full text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-extrabold text-tritary text-center'>Yes YOU Can!</h1>
                   <p className='text-center text-sm sm:text-lg lg:text-xl text-background'>Dr. Faz Mehmood’s mantra inspires confidence and empowers you to achieve your goals with determination and self-belief.</p>
               </div>
@@ -234,7 +430,7 @@ containerRef.current.classList.remove("show-controls")
           }
            {
             currentIndex === 2 && (
-              <div className="absolute top-[50%] left-[50%] md:right-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:left-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
+              <div className="carousel-con absolute top-[50%] left-[50%] md:right-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:left-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
                    <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-tritary text-center'>Unlock market success with our Market Matchmaker Training</h1>
                   <p className='text-center text-sm sm:text-base text-background'>"Unlock market success with our Market Matchmaker Training! Master market research, customer segmentation, and competitive analysis to identify opportunities and craft winning strategies. Learn to tailor your offerings, outshine competitors, and build powerful partnerships. Step into the spotlight with skills that drive results!".</p>
                    <button onClick={() => navigate('/keynotespeaking') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Read More</button>
@@ -244,7 +440,7 @@ containerRef.current.classList.remove("show-controls")
           </> :<>
           {
             currentIndex === 1 && (
-              <div className="absolute top-[50%] left-[50%] md:left-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[20%] md:right-[10%] w-[80%] md:w-[45%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
+              <div className="carousel-con absolute top-[50%] left-[50%] md:left-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[20%] md:right-[10%] w-[80%] md:w-[45%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
                   <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-tritary text-center'>Boost your sales while staying true to your values! </h1>
                   <p className='text-center text-sm sm:text-base text-background'>"Boost your sales while staying true to your values! Selling with Integrity empowers you to build trust, foster genuine connections, and achieve success with honesty at the core."</p>
                    <button onClick={() => navigate('/salesTraining') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Read More</button>
@@ -253,7 +449,7 @@ containerRef.current.classList.remove("show-controls")
           }
            {
             currentIndex === 3 && (
-              <div className="absolute top-[50%] left-[50%] md:left-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:right-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
+              <div className="carousel-con absolute top-[50%] left-[50%] md:left-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:right-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
                   <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-tritary text-center'>Stop Not Working, Start Networking</h1>
                   <p className='text-center text-sm sm:text-base text-background'>"Stop Not Working, Start Networking" is a game-changing program that will empower individuals and organizations to unlock new opportunities, establish fruitful partnerships, and ultimately achieve greater success.</p>
                    <button onClick={() => navigate('/keynotespeaking') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Read More</button>
@@ -277,7 +473,7 @@ containerRef.current.classList.remove("show-controls")
       {/* Section 2 */}
       <div style={{ backgroundImage: "url('/homesec2.webp')" }} className="relative w-full min-h-screen bg-cover bg-no-repeat bg-left brightness-75 flex justify-end items-center py-10">
         <div className="w-full h-full absolute bg-blue-400 bg-opacity-45 z-10"></div>
-        <div className="w-[100%] sm:w-[90%] md:w-[60%] min-h-[90%] z-20 bg-background bg-opacity-45 rounded-xl p-5 flex flex-col gap-4 mx-5 sm:mr-32">
+        <div className="sec2-con w-[100%] sm:w-[90%] md:w-[60%] min-h-[90%] z-20 bg-background bg-opacity-45 rounded-xl p-5 flex flex-col gap-4 mx-5 sm:mr-32">
           <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold '>TURN YOUR SALES INTO THE KEY TO<br /><span className='text-tritary'> TRUE FINANCIAL FREEDOM.</span></h1>
           <p className='text-center sm:text-left text-sm sm:text-base text-white'>After decades of leading Fortune 100 companies, founding three successful businesses, and mastering the art of sales, Dr. Faz Mehmood is here to help you unlock financial freedom by turning your sales into the driving force behind your success.</p>
           <p className='text-center sm:text-left text-sm sm:text-base text-white'>With 20 years of direct sales experience in the U.S. and an MBA in Global Management, Dr. Faz has seen firsthand how effective sales strategies can transform businesses and lives. He’s not just about closing deals—he’s about building sustainable success. His proven methods focus on mindset, communication, and leadership, helping you not only drive sales but create lasting, impactful results that elevate your bottom line.</p>
@@ -287,10 +483,10 @@ containerRef.current.classList.remove("show-controls")
       </div>
       {/* Section 3 */}
       <div className='bg-background w-full min-h-screen flex flex-col justify-center items-center py-20 gap-3 sm:gap-4 md:gap-8'>
-        <h2 className='text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2 [text-shadow:_2px_2px_8px_#000000]'>THE SOLUTION YOU’VE BEEN SEARCHING FOR</h2>
-        <p className='text-lg sm:text-2xl md:text-3xl text-center text-black font-medium md:mx-28'>"Unlock the path to success, personal growth, and a life of abundance with proven strategies and leadership insights.
+        <h2 className='sec3-con text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2 [text-shadow:_2px_2px_8px_#000000]'>THE SOLUTION YOU’VE BEEN SEARCHING FOR</h2>
+        <p className='sec3-con text-lg sm:text-2xl md:text-3xl text-center text-black font-medium md:mx-28'>"Unlock the path to success, personal growth, and a life of abundance with proven strategies and leadership insights.
 </p>
-        <div onMouseMove={() => showControls()} ref={containerRef} className="container w-[80%] md:w-[1000px] h-[300px] sm:h-[500px] relative rounded-lg bg-black">
+        <div onMouseMove={() => showControls()} ref={containerRef} className="sec3-con container w-[80%] md:w-[1000px] h-[300px] sm:h-[500px] relative rounded-lg bg-black">
           <div onClick={playPause} className="absolute flex justify-center items-center w-20 z-10 cursor-pointer opacity-0 h-20 play rounded-full left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] bg-tritary text-white">
           <i ref={playPauseRef} className="ri-play-fill text-3xl text-center cursor-pointer"></i>
           </div>
@@ -370,16 +566,16 @@ containerRef.current.classList.remove("show-controls")
       <div className="w-full min-h-screen sm:h-[120vh] md:h-[180vh] xl:h-[140vh] overflow-hidden bg-fixed bg-[url('/4.webp')] relative bg-no-repeat bg-cover">
         <div className="bg-primary relative py-8 md:py-14 w-full min-h-full bg-opacity-70 flex flex-col lg:flex-row lg:py-0 px-2 sm:px-8 md:px-14  items-center justify-center pt-4 sm:justify-end gap-6 sm:gap-0">
           <div className="flex flex-col gap-4 items-center sm:items-start px-5 sm:px-0 justify-center w-[100%] lg:w-[50%] min-h-full">
-            <h2 className='text-center sm:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-tritary font-bold'><span className='text-background'>Dr.</span> Faz Mehmood</h2>
+            <h2 className='sec4-con text-center sm:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-tritary font-bold'><span className='text-background'>Dr.</span> Faz Mehmood</h2>
             <div className="flex flex-col gap-3 items-start justify-center">
-              <p className='text-center sm:text-left text-sm sm:text-base text-background'>With 40 years of experience spanning Fortune 100 companies and medical practice, Dr. Faz Mehmood is a global business strategist and a powerful inspiration for leaders, executives, and entrepreneurs. His mantra, "Yes YOU Can!", drives his mission to help professionals unlock their full potential and thrive.</p>
-              <p className='text-center sm:text-left text-sm sm:text-base text-background'>As the founder of Learn 2 Grow Rich and Worldwide Success Academy, Dr. Faz offers transformative training in leadership, communication, and human behavior. His expertise, honed through decades of experience, empowers individuals and organizations to achieve personal breakthroughs and business success.</p>
-              <p className='text-center sm:text-left text-sm sm:text-base text-background'>An Executive Director with the John Maxwell Company, Dr. Faz uses actionable insights, storytelling, and humor to inspire audiences worldwide. Whether in Karachi or Pennsylvania, his mission is to help you realize your dreams, take decisive action, and live a life of success and abundance.</p>
-              <p className='text-center sm:text-left text-sm sm:text-base text-background'>Dr. Faz’s unique blend of strategic insight and deep human connection makes him a sought-after mentor and coach, guiding you toward achieving your highest potential.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>With 40 years of experience spanning Fortune 100 companies and medical practice, Dr. Faz Mehmood is a global business strategist and a powerful inspiration for leaders, executives, and entrepreneurs. His mantra, "Yes YOU Can!", drives his mission to help professionals unlock their full potential and thrive.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>As the founder of Learn 2 Grow Rich and Worldwide Success Academy, Dr. Faz offers transformative training in leadership, communication, and human behavior. His expertise, honed through decades of experience, empowers individuals and organizations to achieve personal breakthroughs and business success.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>An Executive Director with the John Maxwell Company, Dr. Faz uses actionable insights, storytelling, and humor to inspire audiences worldwide. Whether in Karachi or Pennsylvania, his mission is to help you realize your dreams, take decisive action, and live a life of success and abundance.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>Dr. Faz’s unique blend of strategic insight and deep human connection makes him a sought-after mentor and coach, guiding you toward achieving your highest potential.</p>
             </div>
-            <button onClick={() => navigate('/about') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>About Faz</button>
+            <button onClick={() => navigate('/about') } className='sec4-con bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>About Faz</button>
           </div>
-          <div className="w-[100%] lg:w-[50%] relative h-[500px] md:h-[550px] hidden sm:flex justify-center items-center lg:h-[900px] xl:h-[900px]">
+          <div className="sec4-img w-[100%] lg:w-[50%] relative h-[500px] md:h-[550px] hidden sm:flex justify-center items-center lg:h-[900px] xl:h-[900px]">
             <img src="/about2.webp" className='w-full h-full object-cover' alt="" />
           </div>
         </div>
@@ -388,28 +584,28 @@ containerRef.current.classList.remove("show-controls")
       <div className="w-full min-h-[20vh] py-20 bg-white px-2 flex flex-col items-center justify-center gap-10 bg-opacity-70">
       <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Awards</h2>
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center w-[80%] text-center md:w-[60%] md:gap-10 lg:gap-0 lg:w-[50%] mx-auto min-h-[400px]">
-             <div className="h-[140px] md:h-[150px] w-full  flex items-start justify-center">
+             <div className="sec5-left h-[140px] md:h-[150px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/award1.webp" alt="" />
              </div>
-             <div className="h-[140px] md:h-[150px] w-full  flex items-start justify-center">
+             <div className="sec5-left h-[140px] md:h-[150px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw1.webp" alt="" />
              </div>
-             <div className="h-[180px] md:h-[200px] w-full  flex items-start justify-center">
+             <div className="sec5-left h-[180px] md:h-[200px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw2.webp" alt="" />
              </div>
-             <div className="h-[180px] md:h-[240px] w-full  flex items-start justify-center">
+             <div className="sec5-left h-[180px] md:h-[240px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw3.webp" alt="" />
              </div>
-             <div className="h-[200px] md:h-[300px] w-full  flex items-start justify-center">
+             <div className="sec5-right h-[200px] md:h-[300px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw4.webp" alt="" />
              </div>
-             <div className="h-[180px] md:h-[240px] w-full  flex items-start justify-center">
+             <div className="sec5-right h-[180px] md:h-[240px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw5.webp" alt="" />
              </div>
-             <div className="h-[220px] md:h-[240px] w-full  flex items-start justify-center">
+             <div className="sec5-right h-[220px] md:h-[240px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw6.webp" alt="" />
              </div>
-             <div className="h-[240px] md:h-[280px] w-full flex items-start justify-center">
+             <div className="sec5-right h-[240px] md:h-[280px] w-full flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw7.webp" alt="" />
              </div>
         </div>
@@ -417,22 +613,22 @@ containerRef.current.classList.remove("show-controls")
       {/* Resource */}
       <div className="flex flex-col gap-8 py-8 md:pt-10 px-2 items-center justify-center w-full min-h-[70vh] mb-4 md:mb-0">
         <div className="flex flex-col w-full items-center justify-center gap-2">
-          <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Find Your Next Breakthrough</h2>
-          <h4 className='text-base sm:text-lg text-gray-600 text-center'>Explore some of Dr.Faz best thoughts and content.</h4>
+          <h2 className='sec6-con text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Find Your Next Breakthrough</h2>
+          <h4 className='sec6-con text-base sm:text-lg text-gray-600 text-center'>Explore some of Dr.Faz best thoughts and content.</h4>
         </div>
-        <div className="flex flex-col md:flex-row flex-wrap gap-4 w-full justify-center items-center md:items-center px-4">
+        <div className="sec6-con flex flex-col md:flex-row flex-wrap gap-4 w-full justify-center items-center md:items-center px-4">
           <iframe className='rounded-xl w-full h-[180px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <button className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold transition-all ease-in-out duration-500'><a href="https://youtube.com/" target='_blank'>More Videos</a></button>
+        <button className='sec6-con bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold transition-all ease-in-out duration-500'><a href="https://youtube.com/" target='_blank'>More Videos</a></button>
         <button></button>
       </div>
 
  {/* Companies */}
  <div className="w-full min-h-[20vh] py-20 px-2 flex flex-col items-center justify-center gap-10 bg-white bg-opacity-70">
-      <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Companies</h2>
-        <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center  w-[80%] mx-auto min-h-[200px]">
+      <h2 className='sec7-con text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Companies</h2>
+        <div className="sec7-con grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center  w-[80%] mx-auto min-h-[200px]">
              <div className="h-[140px] md:h-[200px] w-full  flex items-center justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/comp1.webp" alt="" />
              </div>
@@ -452,35 +648,35 @@ containerRef.current.classList.remove("show-controls")
       <div className="w-full h-screen bg-fixed bg-[url('/aboutpage6.webp')] bg-cover relative">
         <div className="z-10 absolute w-full h-full bg-background bg-opacity-30"></div>
         <div className="relative z-[18] flex w-full h-full flex-col items-center justify-center gap-8 px-6 md:px-2 py-5 ">
-          <h1 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>SEE HOW OTHERS MADE THEIR DREAMS A REALITY</h1>
-          <iframe className='w-full h-[400px] md:w-[60%] md:h-[60%] rounded-3xl' src="https://www.youtube.com/embed/lvLcAjbwi3U?si=QDWuiByIMt_2WY53" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <h1 className='sec8-con text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>SEE HOW OTHERS MADE THEIR DREAMS A REALITY</h1>
+          <iframe className='sec8-con w-full h-[400px] md:w-[60%] md:h-[60%] rounded-3xl' src="https://www.youtube.com/embed/lvLcAjbwi3U?si=QDWuiByIMt_2WY53" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
       {/* Testimonials */}
       <div className="flex flex-col items-center justify-center gap-8 w-full min-h-screen py-16 md:py-20">
         <div className="text-center w-full sm:w-[60%] md:whitespace-nowrap flex justify-center items-center px-4 sm:px-0">
-          <h1 className='text-2xl md:text-4xl lg:text-5xl font-extrabold '>WHAT SALES EXECUTIVES SAY ABOUT <br />
+          <h1 className='sec9-con text-2xl md:text-4xl lg:text-5xl font-extrabold '>WHAT SALES EXECUTIVES SAY ABOUT <br />
             <span className='text-tritary'>WORKING WITH DR. FAZ</span></h1>
         </div>
         <div className="flex flex-col items-center justify-center gap-20 md:gap-10 w-full min-h-full px-6 md-px-0">
           <div className="flex w-full md:w-[80%] justify-between flex-col md:flex-row items-center gap-6 min-h-[300px]">
-            <img src="/testimonial1.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
-            <div className="flex flex-col justify-center items-center md:items-start gap-2">
+            <img src="/testimonial1.webp" className='sec10-left w-48 h-48 rounded-full object-cover' alt="" />
+            <div className="sec10-right flex flex-col justify-center items-center md:items-start gap-2">
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>D.William Steward</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>I meet Dr. Faz at Picket Post Toastmasters, where his inspiring stories and public speaking skills really captivated my interest and desire to grow by developing my own communication skills. Since that time, I have participated in several of his mastermind groups that have truly helped me to grow. He is a fantastic coach and leader that cares about the growth of those he mentors and has an in-depth knowledge of what it takes to communicate as well as lead. He is truly one to get around, if you every have the opportunity I highly recommend his class/services.</p>
             </div>
           </div>
           <div className="flex w-full md:w-[80%] justify-between flex-col-reverse md:flex-row items-center gap-6 min-h-[300px]">
           
-            <div className="flex flex-col justify-center items-center md:items-start gap-2">
+            <div className="sec10-left flex flex-col justify-center items-center md:items-start gap-2">
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>Maheem Shakeel</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>I am honored to recommend Dr. Faz Mahmood, an incredible mentor, coach, and inspirational speaker who has profoundly impacted my life. I was once an introverted and shy individual, hesitant about public speaking and lacking confidence. Under Dr. faz guidance, I transformed into a confident speaker, capable of presenting effectively to an audience. His unwavering encouragement and insightful mentorship have inspired me in countless ways. One of his powerful sayings, “You do not get what you want; you only get what you are,” has become my guiding principle . I am truly grateful for his wisdom, motivation, and the lasting influence he has had on my journey. I wholeheartedly recommend Dr. Faz Mahmood to anyone seeking an inspiring and transformative mentor.</p>
             </div>
-            <img src="/testimonial3.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
+            <img src="/testimonial3.webp" className='sec10-right w-48 h-48 rounded-full object-cover' alt="" />
           </div>
           <div className="flex w-full md:w-[80%] justify-between flex-col md:flex-row items-center gap-6 min-h-[300px]">
-            <img src="/testimonial2.webp" className='w-48 h-48 rounded-full object-cover' alt="" />
-            <div className="flex flex-col justify-center items-center md:items-start gap-2">
+            <img src="/testimonial2.webp" className='sec10-left w-48 h-48 rounded-full object-cover' alt="" />
+            <div className="sec10-right flex flex-col justify-center items-center md:items-start gap-2">
               <h2 className='text-xl sm:text-2xl md:text-3xl font-extrabold font-[Raleway] text-center'>Joe JaworskiJoe Jaworski</h2>
               <p className='text-center md:text-start text-sm sm:text-base'>Dr. Faz is foundational to my growth as a recent college graduate. I am fortunate to have him as a mentor who is genuinely interested in helping me grow as a leader, employee, and person. His presentations contain educational stories drafted from over a decade of rare leadership experience, setting sales records, and ENT surgical practice. His stories and guidance provide me with an original body of knowledge that cannot be found elsewhere. I highly recommend Dr. Faz for your company.</p>
             </div>

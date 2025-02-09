@@ -126,7 +126,7 @@ const Testimonials = () => {
   ariaLabel="loading"
   wrapperStyle
   wrapperClass
-/>}> <VideoTestimonial caption={"Gary Whit"} heading={"With a passion for mentoring and leadership excellence, Gary White embodies the values of influence, connection, and strategic development in every endeavor"} thumb={'/thumb2.webp'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
+/>}> <VideoTestimonial caption={"Gary White"} heading={"With a passion for mentoring and leadership excellence, Gary White embodies the values of influence, connection, and strategic development in every endeavor"} thumb={'/thumb2.webp'} videoRef={videoRef2} videoSrc={"/videos/1.mp4"} /></Suspense>
         <Suspense fallback={<Audio
   height="80"
   width="80"
