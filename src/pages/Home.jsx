@@ -415,7 +415,7 @@ containerRef.current.classList.remove("show-controls")
         </div>
       </div>
       {/* Resource */}
-      <div className="flex flex-col gap-8 py-8 md:py-4 px-2 items-center justify-center w-full min-h-[70vh] mb-4 md:mb-0">
+      <div className="flex flex-col gap-8 py-8 md:pt-10 px-2 items-center justify-center w-full min-h-[70vh] mb-4 md:mb-0">
         <div className="flex flex-col w-full items-center justify-center gap-2">
           <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Find Your Next Breakthrough</h2>
           <h4 className='text-base sm:text-lg text-gray-600 text-center'>Explore some of Dr.Faz best thoughts and content.</h4>
