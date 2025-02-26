@@ -431,7 +431,7 @@ containerRef.current.classList.remove("show-controls")
             currentIndex === 2 && (
               <div className="carousel-con absolute top-[50%] left-[50%] md:right-[unset] translate-x-[-50%] md:translate-x-[unset] translate-y-[-50%] md:translate-y-[unset] md:top-[15%] md:left-[10%] w-[80%] md:w-[50%] min-h-[300px] bg-secondary bg-opacity-50 rounded-xl p-8 flex justify-center items-center flex-col gap-5">
                    <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-tritary text-center'>Unlock market success with our Market Matchmaker Training</h1>
-                  <p className='text-center text-sm sm:text-base text-background'>"Unlock market success with our Market Matchmaker Training! Master market research, customer segmentation, and competitive analysis to identify opportunities and craft winning strategies. Learn to tailor your offerings, outshine competitors, and build powerful partnerships. Step into the spotlight with skills that drive results!".</p>
+                  <p className='text-center text-sm sm:text-base text-background'>"Master market research, customer segmentation, and competitive analysis to uncover opportunities and craft winning strategies. Gain the skills to outshine competitors, tailor offerings, and build powerful partnerships for success!"</p>
                    <button onClick={() => navigate('/keynotespeaking') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Read More</button>
               </div>
             )
@@ -474,16 +474,16 @@ containerRef.current.classList.remove("show-controls")
         <div className="w-full h-full absolute bg-blue-400 bg-opacity-45 z-10"></div>
         <div className="sec2-con w-[100%] sm:w-[90%] md:w-[60%] min-h-[90%] z-20 bg-background bg-opacity-45 rounded-xl p-5 flex flex-col gap-4 mx-5 sm:mr-32">
           <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold '>TURN YOUR SALES INTO THE KEY TO<br /><span className='text-tritary'> TRUE FINANCIAL FREEDOM.</span></h1>
-          <p className='text-center sm:text-left text-sm sm:text-base text-white'>After decades of leading Fortune 100 companies, founding three successful businesses, and mastering the art of sales, Dr. Faz Mehmood is here to help you unlock financial freedom by turning your sales into the driving force behind your success.</p>
-          <p className='text-center sm:text-left text-sm sm:text-base text-white'>With 20 years of direct sales experience in the U.S. and an MBA in Global Management, Dr. Faz has seen firsthand how effective sales strategies can transform businesses and lives. He’s not just about closing deals—he’s about building sustainable success. His proven methods focus on mindset, communication, and leadership, helping you not only drive sales but create lasting, impactful results that elevate your bottom line.</p>
-          <p className='text-center sm:text-left text-sm sm:text-base text-white'>Dr. Faz doesn’t just teach sales techniques; he builds sales leaders who excel in their fields and push the boundaries of what's possible. Through his company, Learn 2 Grow Rich, and as an Executive Director with the John Maxwell Company, Dr. Faz shares actionable strategies that go beyond conventional sales tactics, providing you with the tools to grow your business, empower your team, and achieve the financial freedom you've always dreamed of.</p>
-          <p className='text-center sm:text-left text-sm sm:text-base text-white'>With Dr. Faz, you're not just learning to sell—you're learning to lead, inspire, and transform your approach to business for the long-term success that will fuel your freedom.</p>
+          <p className=' sm:text-left text-sm sm:text-base text-white'>After decades of leading Fortune 100 companies, founding three successful businesses, and mastering the art of sales, Dr. Faz Mehmood is here to help you unlock financial freedom by turning sales into the driving force behind your success.</p>
+          <p className=' sm:text-left text-sm sm:text-base text-white'>With 20 years of direct sales experience in the U.S. and an MBA in Global Management, Dr. Faz has seen firsthand how effective sales strategies can transform businesses and lives. He’s not just about closing deals—he’s about building sustainable success. His proven methods focus on mindset, communication, and leadership, helping you not only drive sales but also create lasting, impactful results that elevate your bottom line.</p>
+          <p className=' sm:text-left text-sm sm:text-base text-white'>Dr. Faz doesn’t just teach sales techniques; he builds sales leaders who excel in their fields and push the boundaries of what’s possible. Through his company, Learn 2 Grow Rich, and as an Executive Director with the John Maxwell Company, Dr. Faz shares actionable strategies that go beyond conventional sales tactics, providing you with the tools to grow your business, empower your team, and achieve the financial freedom you’ve always dreamed of.</p>
+          <p className=' sm:text-left text-sm sm:text-base text-white'>With Dr. Faz, you’re not just learning to sell—you’re learning to lead, inspire, and transform your approach to business for long-term success that will fuel your financial freedom.</p>
         </div>
       </div>
       {/* Section 3 */}
       <div className='bg-background w-full min-h-screen flex flex-col justify-center items-center py-20 gap-3 sm:gap-4 md:gap-8'>
         <h2 className='sec3-con text-3xl sm:text-4xl md:text-5xl text-center text-tritary font-bold mb-4 sm:mb-0 mx-2 [text-shadow:_2px_2px_8px_#000000]'>THE SOLUTION YOU’VE BEEN SEARCHING FOR</h2>
-        <p className='sec3-con text-lg sm:text-2xl md:text-3xl text-center text-black font-medium md:mx-28'>"Unlock the path to success, personal growth, and a life of abundance with proven strategies and leadership insights.
+        <p className='sec3-con text-lg sm:text-2xl md:text-3xl text-center text-black font-medium md:mx-28'>"Unlock the path to success, personal growth, and a life of abundance with proven strategies and leadership insights."
 </p>
         <div onMouseMove={() => showControls()} ref={containerRef} className="sec3-con container w-[80%] md:w-[1000px] h-[300px] sm:h-[500px] relative rounded-lg bg-black">
           <div onClick={playPause} className="absolute flex justify-center items-center w-20 z-10 cursor-pointer opacity-0 h-20 play rounded-full left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] bg-tritary text-white">
@@ -540,14 +540,14 @@ containerRef.current.classList.remove("show-controls")
           </div>
           <video onLoadedData={(e) => updateDuration(e)} onTimeUpdate={(e) => timeUpdate(e)} ref={videoRef}  className='w-full h-full px-2 rounded-lg' src="/videos/homeVid.mp4"></video>
         </div>
-        <div className="flex flex-col gap-4 justify-center items-center w-full bg-primary py-4 px-2 mt-48 relative">
-          <h3 className='text-lg sm:text-xl text-background font-semibold text-center'>HAS WORKED WITH PROFESSIONALS IN</h3>
+        <div className="flex flex-col gap-4 justify-center items-center w-full bg-primary py-8 px-2 mt-48 relative">
+          <h3 className='text-lg sm:text-xl lg:text-2xl text-background font-semibold text-center'>HAS WORKED WITH PROFESSIONALS IN</h3>
           <div className='infinte-scroller'>
-            <Marquee>
-               <div className="flex justify-center items-center gap-20 ">
+       
+               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 gap-y-8 mt-8">
               {
                 
-                [...infinite, ...infinite].map((item, index) => (
+                [...infinite].map((item, index) => (
                   <div key={index} className="brand flex-shrink-0 ml-2 mr-2 text-background flex flex-col items-center justify-between gap-0 mx-10">
                     <img src={item.url} className='w-16 h-16 object-contain mx-auto text-background mb-2' alt="" />
                     <h4 className='text-sm sm:text-base text-background'>{item.title1}</h4>
@@ -557,7 +557,6 @@ containerRef.current.classList.remove("show-controls")
                 
               }
               </div>
-            </Marquee>
           </div>
         </div>
       </div>
@@ -567,12 +566,12 @@ containerRef.current.classList.remove("show-controls")
           <div className="flex flex-col gap-4 items-center sm:items-start px-5 sm:px-0 justify-center w-[100%] lg:w-[50%] min-h-full">
             <h2 className='sec4-con text-center sm:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-tritary font-bold'><span className='text-background'>Dr.</span> Faz Mehmood</h2>
             <div className="flex flex-col gap-3 items-start justify-center">
-              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>With 40 years of experience spanning Fortune 100 companies and medical practice, Dr. Faz Mehmood is a global business strategist and a powerful inspiration for leaders, executives, and entrepreneurs. His mantra, "Yes YOU Can!", drives his mission to help professionals unlock their full potential and thrive.</p>
-              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>As the founder of Learn 2 Grow Rich and Worldwide Success Academy, Dr. Faz offers transformative training in leadership, communication, and human behavior. His expertise, honed through decades of experience, empowers individuals and organizations to achieve personal breakthroughs and business success.</p>
-              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>An Executive Director with the John Maxwell Company, Dr. Faz uses actionable insights, storytelling, and humor to inspire audiences worldwide. Whether in Karachi or Pennsylvania, his mission is to help you realize your dreams, take decisive action, and live a life of success and abundance.</p>
-              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>Dr. Faz’s unique blend of strategic insight and deep human connection makes him a sought-after mentor and coach, guiding you toward achieving your highest potential.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>With 40 years of experience across Fortune 100 companies and the medical field, Dr. Faz Mehmood is a global business strategist dedicated to empowering leaders, executives, and entrepreneurs. His mantra, "Yes YOU Can!" fuels his mission to help professionals unlock their potential and achieve extraordinary success.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>As the founder of Learn 2 Grow Rich and Worldwide Success Academy, Dr. Faz delivers transformative training in leadership, communication, and human behavior. His decades of expertise provide individuals and organizations with the tools to create lasting breakthroughs and measurable growth.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>An Executive Director with the John Maxwell Company, Dr. Faz captivates audiences worldwide with actionable insights, storytelling, and humor. From Karachi to Pennsylvania, his impact transcends borders, helping people turn ambition into reality and embrace a life of purpose and abundance.</p>
+              <p className='sec4-con text-center sm:text-left text-sm sm:text-base text-background'>With a unique blend of strategic vision and deep human connection, Dr. Faz is a sought-after mentor and coach, guiding professionals to new heights of success and fulfillment.</p>
             </div>
-            <button onClick={() => navigate('/about') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>About Faz</button>
+            <button onClick={() => navigate('/about') } className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>About Dr. Faz</button>
           </div>
           <div className="sec4-img w-[100%] lg:w-[50%] relative h-[500px] md:h-[550px] hidden sm:flex justify-center items-center lg:h-[900px] xl:h-[1000px]">
             <img src="/about2.webp" className='w-full h-full object-cover' alt="" />
@@ -583,10 +582,10 @@ containerRef.current.classList.remove("show-controls")
       <div className="w-full min-h-[20vh] py-20 bg-white px-2 flex flex-col items-center justify-center gap-10 bg-opacity-70">
       <h2 className='text-center text-3xl sm:text-4xl md:text-5xl text-tritary font-bold [text-shadow:_2px_2px_8px_#000000]'>Awards</h2>
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center w-[80%] text-center md:w-[60%] md:gap-10 lg:gap-0 lg:w-[50%] mx-auto min-h-[400px]">
-             <div className="sec5-left h-[140px] md:h-[150px] w-full  flex items-start justify-center">
-              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/award1.webp" alt="" />
+             <div className="sec5-left h-[250px] md:h-[300px] w-full  flex items-start justify-center">
+              <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/Toastmasters.webp" alt="" />
              </div>
-             <div className="sec5-left h-[140px] md:h-[150px] w-full  flex items-start justify-center">
+             <div className="sec5-left h-[120px] md:h-[150px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw1.webp" alt="" />
              </div>
              <div className="sec5-left h-[180px] md:h-[200px] w-full  flex items-start justify-center">
@@ -604,7 +603,7 @@ containerRef.current.classList.remove("show-controls")
              <div className="sec5-right h-[220px] md:h-[240px] w-full  flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw6.webp" alt="" />
              </div>
-             <div className="sec5-right h-[240px] md:h-[280px] w-full flex items-start justify-center">
+             <div className="sec5-right h-[240px] mb-5 md:h-[280px] w-full flex items-start justify-center">
               <img className='h-full object-cover hover:scale-110 transition-all ease-in duration-200' src="/aw7.webp" alt="" />
              </div>
         </div>
@@ -616,9 +615,9 @@ containerRef.current.classList.remove("show-controls")
           <h4 className='sec6-con text-base sm:text-lg text-gray-600 text-center'>Explore some of Dr.Faz best thoughts and content.</h4>
         </div>
         <div className="sec6-con flex flex-col md:flex-row flex-wrap gap-4 w-full justify-center items-center md:items-center px-4">
-          <iframe className='rounded-xl w-full h-[180px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/5YDcklQCXZU?si=FUJEsPPqOEbwVQOP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/ypWh2399AHU?si=r-70dwV-zrjJC8tC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/Ttm79LCaw_4?si=X3l8wJgY4PQ1a0Fd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe className='rounded-xl w-full h-[150px] md:w-[23%] md:h-[200px]' src="https://www.youtube.com/embed/xqiGvN70504?si=4XA1RO8aMNWpOAYL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
         <button className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold transition-all ease-in-out duration-500'><a href="https://www.youtube.com/@DrFazMehmood" target='_blank'>More Videos</a></button>
         <button></button>

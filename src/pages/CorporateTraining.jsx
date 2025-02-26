@@ -20,7 +20,7 @@ const CorporateTraining = () => {
       <div className="relative w-full min-h-screen md:h-screen flex justify-center bg-[url('/co1.webp')] bg-cover bg-left md:bg-top bg-no-repeat bg-fixed md:justify-start items-center px-4 md:px-20 py-0">
         <div className="w-full sm:w-[80%] md:w-[50%] min-h-[400px] bg-primary bg-opacity-50 px-4 md:px-8 py-10 rounded-lg flex flex-col gap-5 justify-center items-center md:items-start">
           <h1 className='w-full text-3xl md:text-4xl lg:text-5xl font-extrabold text-background [text-shadow:_0_6px_8px_#000000] text-center md:text-start'>Transform Your Team with Corporate Training</h1>
-          <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-background'>Leadership. Growth. Success.</h4>
+          <h4 className='text-xl md:text-2xl font-semibold text-center md:text-start text-background'>Leadership, Growth and Success.</h4>
           <p className='text-lg md:text-xl text-center md:text-start text-background font-light'>Dr. Faz Mehmood delivers dynamic workshops that empower teams, enhance leadership, and drive organizational success. Equip your team with actionable strategies to thrive in today’s competitive world.</p>
         </div>
       </div>
@@ -39,12 +39,12 @@ const CorporateTraining = () => {
               Master the Art of Communication
             </h2>
             <h2 className='text-lg sm:text-xl text-background font-semibold text-center tracking-wider'>
-              Clarity. Connection. Confidence.
+            Clarity, Connection and Confidence.
             </h2>
-            <p className='text-base md:text-lg text-background text-center md:text-start' >In today’s fast-paced business environment, clear and effective communication is the foundation of success. Dr. Faz Mehmood’s communication workshops empower individuals and teams to express ideas with confidence, foster stronger relationships, and minimize misunderstandings.</p>
-            <p className='text-base md:text-lg text-background text-center md:text-start' >Participants will gain valuable insights into active listening, emotional intelligence, and persuasive communication techniques, all tailored to create meaningful connections and drive collaboration. These sessions are designed to help your team break down communication barriers and build a culture where every voice is heard and valued.</p>
-            <p className='text-base md:text-lg text-background text-center md:text-start' >Whether it’s enhancing workplace communication or refining executive-level messaging, this program equips your organization with the tools to communicate effectively and thrive in any environment.</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <p className='text-base md:text-lg text-background text-center md:text-start' >In today’s fast-paced business world, effective communication is essential for success. Dr. Faz Mehmood’s workshops equip individuals and teams with the skills to articulate ideas clearly, strengthen relationships, and foster collaboration.</p>
+            <p className='text-base md:text-lg text-background text-center md:text-start' >Participants will explore active listening, emotional intelligence, and persuasive techniques to enhance engagement and understanding. These sessions break down communication barriers, ensuring every voice is valued.</p>
+            <p className='text-base md:text-lg text-background text-center md:text-start' >From workplace interactions to executive messaging, this program provides the tools to communicate with impact and excel in any environment.</p>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
         </div>
       </div>
@@ -57,12 +57,12 @@ const CorporateTraining = () => {
             Build Teams That Thrive
             </h2>
             <h2 className='text-lg sm:text-xl text-primary font-semibold text-center tracking-wider'>
-            Unity. Collaboration. Success.
+            Unity, Collaboration and Success.
             </h2>
-            <p className='text-base md:text-lg text-primary text-center md:text-start' >Teams that work well together achieve extraordinary results. Dr. Faz Mehmood’s dynamic team-building workshops are designed to inspire cooperation, resolve conflicts, and create an environment of trust and mutual respect.</p>
-            <p className='text-base md:text-lg text-primary text-center md:text-start' >Through interactive activities and practical strategies, participants will learn how to harness individual strengths, embrace diversity, and work towards shared goals. The sessions focus on fostering strong interpersonal relationships, improving problem-solving skills, and enhancing team dynamics to maximize productivity..</p>
-            <p className='text-base md:text-lg text-primary text-center md:text-start' >By the end of the program, your team will leave with actionable tools to create a high-performing, cohesive unit ready to tackle challenges and achieve remarkable outcomes together. Transform your workplace into a thriving ecosystem of collaboration and success.</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <p className='text-base md:text-lg text-primary text-center md:text-start' >High-performing teams drive extraordinary results. Dr. Faz Mehmood’s team-building workshops inspire cooperation, resolve conflicts, and cultivate a culture of trust and respect.</p>
+            <p className='text-base md:text-lg text-primary text-center md:text-start' >Through interactive activities and strategic insights, participants will harness individual strengths, embrace diversity, and align towards shared goals. The sessions enhance problem-solving, strengthen relationships, and refine team dynamics for maximum productivity.</p>
+            <p className='text-base md:text-lg text-primary text-center md:text-start' >Equip your team with the tools to collaborate effectively, overcome challenges, and achieve remarkable success together.</p>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[48%] min-h-full flex items-start justify-center">
             <img src="/is1.webp" className='w-full md:w-[80%] h-[60%] md:h-[50%] rounded-lg' alt="" />
@@ -76,7 +76,7 @@ const CorporateTraining = () => {
         <div className="relative z-[18] flex flex-col gap-4 items-center justify-center md:items-start w-full md:w-[70%] px-4 md:px-40 py-10">
           <h2 className='w-full text-2xl md:text-3xl lg:text-4xl font-extrabold text-background [text-shadow:_2px_4px_4px_#000] text-center md:text-start'>Book Faz Now To Make Your Life Positive</h2>
           <p className='text-lg md:text-xl text-center md:text-start text-background font-light'>Empowering leaders with the skills to excel in leadership, teamwork, and success in today’s competitive world.</p>
-          <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+          <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
         </div>
       </div>
     </div>

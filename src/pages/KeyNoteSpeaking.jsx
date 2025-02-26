@@ -32,7 +32,7 @@ const KeyNoteSpeaking = () => {
             Book Dr. <span className='text-tritary '>Faz To Inspire and Transform</span>
           </h1>
           <p className='text-base md:text-lg text-white text-center'>Looking for an inspiring speaker to energize your audience and deliver impactful insights? Dr. Faz Mehmood brings a wealth of experience as a global strategist, leadership coach, and visionary mentor. With over 40 years of expertise across Fortune 100 companies, entrepreneurship, and transformational coaching, Dr. Faz connects with audiences through engaging storytelling and actionable strategies that spark change and inspire growth. Whether it’s a corporate event, leadership summit, or motivational session, Dr. Faz delivers a powerful message tailored to empower and uplift.</p>
-          <button className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500' onClick={openCalendly}>Book Faz To Speak</button>
+          <button className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500' onClick={openCalendly}>Book Dr. Faz To Speak</button>
         </div>
       </div>
 
@@ -42,11 +42,11 @@ const KeyNoteSpeaking = () => {
           5 Powerful Reasons to Choose Dr. Faz for Your Next Event
         </h2>
         <ol type='1' className='w-full flex flex-col text-center md:text-start gap-4'>
-          <li><b>Unmatched Expertise Across Industries:</b>With over 40 years of experience spanning Fortune 100 companies, medical practice, and entrepreneurial ventures, Dr. Faz brings a wealth of knowledge and insight. His unique background allows him to connect with diverse audiences, offering strategies that resonate across industries.</li>
-          <li><b>Inspirational and Transformative Leadership:</b>Dr. Faz is not just a speaker; he’s a visionary leader who motivates audiences to unlock their potential. His personal mantra, "Yes YOU Can!", empowers individuals to embrace change, overcome challenges, and achieve excellence in their personal and professional lives.</li>
-          <li><b>Engaging and Memorable Presentations:</b>Known for his storytelling, humor, and actionable insights, Dr. Faz keeps audiences captivated from start to finish. Whether addressing small teams or large conferences, his ability to inspire and educate ensures your event will be a lasting success.</li>
-          <li><b>Customized Solutions for Real-World Challenges:</b>Dr. Faz doesn’t deliver cookie-cutter speeches. He tailors every presentation to the needs of your audience, diagnosing their challenges and offering practical, results-driven solutions to help them thrive.</li>
-          <li><b>A Global Perspective with a Personal Touch:</b>As a multicultural and multilingual expert, Dr. Faz connects with diverse audiences and brings a global perspective to every engagement. His warm, approachable style and ability to build genuine connections ensure every participant feels seen, heard, and inspired.</li>
+          <li><b>Unmatched Expertise Across Industries:</b>With 40+ years of experience in Fortune 100 companies, medical practice, and entrepreneurship, Dr. Faz offers a unique blend of strategic insight and practical knowledge. His diverse background allows him to connect with any audience and provide actionable strategies that drive real results.</li>
+          <li><b>Inspirational and Transformative Leadership:</b>More than just a speaker, Dr. Faz is a visionary leader who empowers individuals to break barriers and achieve excellence. His mantra, "Yes YOU Can!", inspires audiences to embrace change, overcome challenges, and unlock their full potential.</li>
+          <li><b>Engaging and Memorable Presentations:</b>Through storytelling, humor, and powerful insights, Dr. Faz captivates audiences from start to finish. Whether speaking to small teams or large conferences, his energy and expertise leave a lasting impact.</li>
+          <li><b>Customized Solutions for Real-World Challenges:</b>Dr. Faz customizes every presentation to address the specific needs of his audience. Instead of generic speeches, he delivers targeted, results-driven strategies that create meaningful transformation.</li>
+          <li><b>A Global Perspective with a Personal Touch:</b>As a multilingual and multicultural expert, Dr. Faz connects with diverse audiences worldwide. His warm, approachable style ensures every participant feels valued, heard, and inspired to take action.</li>
         </ol>
       </div>
 
@@ -82,7 +82,7 @@ const KeyNoteSpeaking = () => {
               <li className='text-background list-disc'>Coaches and Consultants</li>
             </ul>
             <p className='text-base md:text-lg text-background text-center md:text-start' >In this engaging and transformative session, participants will gain actionable strategies to build meaningful connections, navigate multicultural environments, and leverage networking opportunities like never before. Dr. Faz Mehmood, an expert with 40 years of experience in global leadership, will empower you to unlock the true potential of networking for unparalleled personal and professional growth.</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ const KeyNoteSpeaking = () => {
               <li className='text-primary list-disc'>Engaging activities that encourage interaction and practical application.</li>
             </ul>
             <p className='text-base md:text-lg text-primary text-center md:text-start' >This program is ideal for professionals in Human Resources, Marketing, Communications, and Meetings Technology, seeking to elevate their communication game while maintaining integrity at the core of their actions.</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
             <img src="/kr1.webp" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
@@ -150,7 +150,7 @@ const KeyNoteSpeaking = () => {
               <li className='text-background list-disc'>Youngsters</li>
             </ul>
             <p className='text-base md:text-lg text-background text-center md:text-start' >With practical, down-to-earth principles, this session inspires participants to embrace habits that foster trust, integrity, and positive influence, leaving them empowered to make meaningful changes in their daily lives.</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ const KeyNoteSpeaking = () => {
               <li className='text-primary list-disc'>Confidence to implement actionable market matchmaking techniques.</li>
             </ul>
             <p className='text-base md:text-lg text-primary text-center md:text-start' >Don't miss your chance to become a master at connecting with the right markets and take your business to unprecedented heights. Join Dr. Faz Mehmood and transform the way you approach market matchmaking today!</p>
-            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Faz To Speak</button>
+            <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
             <img src="/kr2.webp" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
@@ -198,7 +198,7 @@ const KeyNoteSpeaking = () => {
           <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-semibold'>
           The Art of Impactful Keynote Speaking
           </h4>
-          <p className='text-base md:text-lg text-secondary text-center md:text-start' >Experience the transformative power of Dr. Faz’s keynote speeches that have inspired audiences across four continents. This video showcases dynamic presentations, heartfelt stories, and strategies that ignite motivation, foster leadership, and drive personal and professional growth.</p>
+          <p className='text-base md:text-lg text-secondary text-center md:text-start' >Experience the transformative power of Dr. Faz’s keynote speeches, which have inspired audiences across four continents. This video highlights his dynamic presentations, heartfelt storytelling, and proven strategies that ignite motivation, foster leadership, and drive personal and professional growth.</p>
         </div>
         <div className="w-full md:w-[48%] min-h-full flex justify-center items-center">
          <Suspense fallback={<Audio
@@ -230,7 +230,7 @@ const KeyNoteSpeaking = () => {
           <h4 className='text-xl md:text-2xl text-center md:text-start text-primary font-semibold'>
           Elevate, Empower, Excel
           </h4>
-          <p className='text-base md:text-lg text-secondary text-center md:text-start' >Discover how Dr. Faz crafts speeches that go beyond words to create lasting change. In this video, he reveals his approach to connecting with diverse audiences, delivering actionable insights, and leaving a lasting impact that empowers individuals to lead with purpose and passion.</p>
+          <p className='text-base md:text-lg text-secondary text-center md:text-start' >Discover how Dr. Faz crafts speeches that transcend words, creating lasting change. This video reveals his unique approach to connecting with diverse audiences, delivering actionable insights, and empowering individuals to lead with purpose and passion.</p>
         </div>
       </div>
 
