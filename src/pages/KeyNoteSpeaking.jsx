@@ -187,7 +187,7 @@ const KeyNoteSpeaking = () => {
             <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
-            <img src="/kr2.webp" className='w-full md:w-[80%] h-[80%] md:h-[80%] rounded-lg object-cover object-right' alt="" />
+            <img src="/kr12.webp" className='w-full md:w-[80%] h-[80%] md:h-[80%] rounded-lg object-cover object-right' alt="" />
           </div>
         </div>
       </div>
