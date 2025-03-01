@@ -187,7 +187,7 @@ const KeyNoteSpeaking = () => {
             <button onClick={openCalendly} className='bg-thrice text-background sm:text-xl hover:bg-tritary hover:text-primary text-base px-2 py-1 sm:px-5 text-center rounded-xl font-extrabold border-2 border-background transition-all ease-in-out duration-500'>Book Dr. Faz To Speak</button>
           </div>
           <div className="w-full relative md:w-[50%] h-[400px] md:h-[1200px] flex items-start justify-center">
-            <img src="/kr2.webp" className='w-full md:w-[80%] h-[80%] md:h-[50%] rounded-lg object-cover object-right' alt="" />
+            <img src="/kr2.webp" className='w-full md:w-[80%] h-[80%] md:h-[80%] rounded-lg object-cover object-right' alt="" />
           </div>
         </div>
       </div>
@@ -238,12 +238,12 @@ const KeyNoteSpeaking = () => {
       <div className="w-full min-h-[60vh] bg-primary grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center gap-10 py-10 px-4 md:px-12 mt-16">
         <img className='object-cover rounded-xl h-[200px] w-full' src="/2.webp" alt="" />
         <img className='object-cover rounded-xl h-[200px] w-full' src="/3.webp" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/2.webp" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/10.webp" alt="" />
         <img className='object-cover rounded-xl h-[200px] w-full' src="/4.webp" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/testimonial1.webp" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/1.webp" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/3.webp" alt="" />
-        <img className='object-cover rounded-xl h-[200px] w-full' src="/aboutpage2.webp" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/6.webp" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/7.webp" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/8.webp" alt="" />
+        <img className='object-cover rounded-xl h-[200px] w-full' src="/9.webp" alt="" />
       </div>
 
     </div>
