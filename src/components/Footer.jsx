@@ -7,11 +7,20 @@ const Footer = () => {
       <div className="flex bg-white bg-opacity-70 flex-col md:flex-row justify-center gap-8 border-t-4 border-b-4 border-primary items-center w-full min-h-[100px] px-4 py-6">
       <h2 className='text-2xl md:text-3xl lg:text-4xl font-extrabold text-primary [text-shadow:_2px_4px_4px_#fff] text-center md:text-start'>CONNECT WITH Dr. FAZ</h2>
       <div className="flex flex-row flex-wrap gap-2 items-center justify-center w-full md:w-[200px]">
-      <i className="ri-instagram-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
-      <i className="ri-facebook-circle-fill w-14 h-14 md:w-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 md:h-10 rounded-full text-background bg-primary flex justify-center items-center"></i>
-      <i className="ri-youtube-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
-      <i className="ri-linkedin-box-fill w-14 h-14 md:w-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 md:h-10 rounded-full text-background bg-primary flex justify-center items-center"></i>
-      </div>
+  <a href="https://www.instagram.com/dr.fazmemon" target="_blank" rel="noopener noreferrer">
+    <i className="ri-instagram-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
+  </a>
+  <a href="https://www.facebook.com/drfaz.me?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+    <i className="ri-facebook-circle-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
+  </a>
+  <a href="https://www.youtube.com/@DrFazMehmood" target="_blank" rel="noopener noreferrer">
+    <i className="ri-youtube-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/drfazmemon/" target="_blank" rel="noopener noreferrer">
+    <i className="ri-linkedin-box-fill w-14 h-14 md:w-10 md:h-10 hover:bg-secondary cursor-pointer transition-all ease-in duration-200 rounded-full text-background bg-primary flex justify-center items-center"></i>
+  </a>
+</div>
+
       </div>
       <div className="flex flex-col justify-center px-8 md:px-20 items-center w-full min-h-[300px] bg-secondary py-4">
       <div className="flex flex-col md:flex-row justify-center px-8 md:px-20 items-center w-full min-h-[200px] bg-secondary py-6">
@@ -35,8 +44,10 @@ const Footer = () => {
         <p className='text-lg md:text-xl text-center md:text-start text-background font-light'> &copy;, 2024 Dr. Faz</p>
         <div className="flex gap-2 items-center justify-center md:mt-0">
         <p className='text-lg md:text-xl text-center md:text-start cursor-pointer hover:text-white text-background font-light'>Terms of services</p>
-        <p className='text-lg md:text-xl text-center md:text-start text-background font-light'>|</p>
-        <p className='text-lg md:text-xl text-center md:text-start cursor-pointer hover:text-white text-background font-light'>Privacy Policy</p>
+        <p className="text-lg md:text-xl text-center md:text-start text-background font-light">|</p>
+  <a href="https://www.termsfeed.com/live/77c51376-0c91-4f95-91ed-dacf24eb833a" target="_blank" rel="noopener noreferrer">
+    <p className="text-lg md:text-xl text-center md:text-start cursor-pointer hover:text-white text-background font-light">Privacy Policy</p>
+  </a>
         </div>
         </div>
       </div>
