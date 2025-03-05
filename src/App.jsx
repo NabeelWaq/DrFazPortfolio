@@ -30,7 +30,7 @@ const App = () => {
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div id='main' className='w-full min-h-screen bg-background text-darkBlue overflow-x-hidden'>
+    <div id='main' className='w-full min-h-screen bg-background text-darkBlue overflow-x-hidden relative'>
      <NavBar/>
      <Routes>
      <Route path='/' element={<Home/>} />
@@ -49,6 +49,7 @@ const App = () => {
      <Route path='/inspirational' element={<InspirationalTalks/>} />
      </Routes>
      <Footer/>
+     <a href="https://whatsapp.com/channel/0029Vb3D6Xx3WHTRA4QU5v2u" target='_blank'><img src="/Whatsapp-Logo.png" alt="logo" className='fixed right-0 bottom-14 cursor-pointer opacity-80 hover:opacity-100 h-20 object-contain z-50' /></a>
     </div>
   )
 }
