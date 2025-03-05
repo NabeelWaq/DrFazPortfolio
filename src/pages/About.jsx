@@ -1,6 +1,14 @@
 import React from 'react'
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const About = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useGSAP(() => {
+    // gsap.from()
+  },[])
   return (
     <div className='w-full min-h-screen overflow-x-hidden'>
     <div className="w-full mt-[150px] lg:mt-0 min-h-[120vh] md:min-h-screen sm:h-[115vh] lg:h-[100vh] overflow-hidden bg-fixed bg-[url('/aboutpage2.webp')] contrast-125 relative bg-no-repeat bg-cover">
